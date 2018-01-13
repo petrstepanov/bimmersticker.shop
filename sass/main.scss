@@ -1,0 +1,50 @@
+// Responsive typography
+html {
+  font-size: 14px;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 16px;
+  }
+}
+
+// @include media-breakpoint-up(lg) {
+//   html {
+//     font-size: 28px;
+//   }
+// }
+
+
+.navbar-bimmersticker {
+  .navbar-brand {
+    color: #333333;
+    display: flex;
+    align-items: center;
+
+    img {
+      width: $logo-size;
+      height: $logo-size;
+      border-radius: 50%;
+    }
+
+    span {
+      font-family: $font-display;
+      font-size: $font-size-21;
+      margin-top: 0.5rem;
+      margin-left: 1rem;
+      display: inline-block;
+
+      @include media-breakpoint-up(sm) {
+        font-size: $font-size-28;
+        margin-left: 1.5rem;
+      }
+    }
+  }
+}

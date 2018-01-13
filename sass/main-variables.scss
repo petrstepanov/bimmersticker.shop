@@ -1,0 +1,47 @@
+// Fonts
+@import "./../fonts/coolvetica/stylesheet.scss";
+@import "./../fonts/notosans_regular_macroman/stylesheet.scss";
+@import "./../fonts/notosans_bold_macroman/stylesheet.scss";
+
+$font-size-9: 0.5625em;
+$font-size-12: 0.75em;
+$font-size-16: 1em;
+$font-size-21: 1.3125em;
+$font-size-28: 1.75em;
+$font-size-37: 2.3125em;
+$font-size-50: 3.125em;
+$font-size-67: 4.1875em;
+$font-size-89: 5.5625em;
+
+.font-size-9 {
+    font-size: $font-size-9;
+}
+.font-size-12 {
+    font-size: $font-size-12;
+}
+.font-size-16 {
+    font-size: $font-size-16;
+}
+.font-size-21 {
+    font-size: $font-size-21;
+}
+.font-size-28 {
+    font-size: $font-size-28;
+}
+.font-size-37 {
+    font-size: $font-size-37;
+}
+.font-size-50 {
+    font-size: $font-size-50;
+}
+.font-size-67 {
+    font-size: $font-size-67;
+}
+.font-size-89 {
+    font-size: $font-size-89;
+}
+
+$font-display: 'coolveticaregular', Arial, Helvetica, sans-serif;
+
+$logo-size:   3rem;
+// $navbar-padding-y:  1.2rem;
