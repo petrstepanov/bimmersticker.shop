@@ -1,0 +1,22 @@
+{
+  "name": "bimmersticker.shop",
+  "version": "1.0.0",
+  "description": "Bimmer Sticker Shop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petrstepanov/bimmersticker.shop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/petrstepanov/bimmersticker.shop/issues"
+  },
+  "homepage": "https://github.com/petrstepanov/bimmersticker.shop#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
