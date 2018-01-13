@@ -1,0 +1,16 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Petr Stepanov -- designer and developer -- https://twitter.com/petr_stepanov
+
+# THANKS
+
+    mom and dad
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, Bootstrap, Sass
+    jQuery, Modernizr
+    npm, Gulp
