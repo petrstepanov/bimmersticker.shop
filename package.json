@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/petrstepanov/bimmersticker.shop#readme",
   "devDependencies": {
+    "bootstrap": "^4.0.0-beta.3",
     "gulp": "^3.9.1"
   }
 }
