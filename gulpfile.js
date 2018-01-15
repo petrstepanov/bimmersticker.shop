@@ -16,11 +16,11 @@ gulp.task('scripts', function() {
     ])
     .pipe(plumber()) // prevents breaking and has to go first here
     .pipe(concat('bimmersticker.js'))
-    .pipe(uglify())
-    .pipe(rename({
-      suffix: '.min'
-    }))
-    .pipe(gulp.dest('./js/'));
+    // .pipe(uglify())
+    // .pipe(rename({
+    //   suffix: '.min'
+    // }))
+    .pipe(gulp.dest('./js'));
 });
 
 gulp.task('sass', function () {

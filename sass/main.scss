@@ -9,7 +9,7 @@ html {
   }
 }
 
-@include media-breakpoint-up(md) {
+@include media-breakpoint-up(lg) {
   html {
     font-size: 16px;
   }
@@ -23,6 +23,8 @@ html {
 
 
 .navbar-bimmersticker {
+  @include box-shadow(0 0.375rem 1.6rem 0 rgba(0,0,0,0.28));
+
   .navbar-brand {
     color: #333333;
     display: flex;
@@ -32,19 +34,205 @@ html {
       width: $logo-size;
       height: $logo-size;
       border-radius: 50%;
+
+      @include media-breakpoint-up(sm) {
+        width: $logo-size-bigger;
+        height: $logo-size-bigger;
+      }
+      @include media-breakpoint-up(md) {
+        width: $logo-size-biggest;
+        height: $logo-size-biggest;
+      }
     }
 
     span {
       font-family: $font-display;
       font-size: $font-size-21;
-      margin-top: 0.5rem;
-      margin-left: 1rem;
+      margin-left: $logo-text-padding;
+      margin-top: 0.4rem;
       display: inline-block;
 
       @include media-breakpoint-up(sm) {
         font-size: $font-size-28;
-        margin-left: 1.5rem;
+        margin-left: $logo-text-padding-bigger;
+        margin-top: 0.5rem;
       }
     }
+  }
+
+  .navbar-toggler {
+    border-width: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .navbar-nav {
+    @include media-breakpoint-down(xs) {
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+    }
+
+    .nav-link {
+      @include media-breakpoint-only(xs) {
+        padding-left: $logo-size + $logo-text-padding;
+      }
+      @include media-breakpoint-only(sm) {
+        padding-left: $logo-size-bigger + $logo-text-padding;
+      }
+    }
+
+    .nav-item {
+      @include media-breakpoint-up(md) {
+        margin-left: 2rem;
+
+        &:last-child {
+          margin-left: 0rem;
+        }
+      }
+    }
+  }
+  .nav-link {
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+  }
+}
+
+.jumbotron-bimmersticker {
+  background-color: lighten($blue,50%);
+  background-image: url(./../img/banner.jpg);
+  background-size: cover;
+  background-position: center center;
+  min-height: 14rem;
+
+  @include media-breakpoint-up(sm) {
+    min-height: 18rem;
+  }
+
+  @include media-breakpoint-up(md) {
+    min-height: 20rem;
+  }
+
+  @include media-breakpoint-up(lg) {
+    min-height: 22rem;
+  }
+
+  h1 {
+    font-size: $font-size-21;
+
+    @include media-breakpoint-up(sm) {
+      font-size: $font-size-28;
+    }
+
+    @include media-breakpoint-up(lg) {
+      font-size: $font-size-37;
+    }
+  }
+}
+
+h2 {
+  font-family: $font-display;
+  text-align: center;
+  margin-bottom: 3.5rem;
+
+  small {
+    font-family: $font-regular;
+    display: block;
+    font-size: $font-size-16;
+  }
+
+  &:after {
+    content: '';
+    width: 5rem;
+    height: 0.1875rem;
+    background: $blue;
+    position: absolute;
+    left: 50%;
+    margin-left: -2.5rem;
+    bottom: -1rem;
+  }
+}
+
+.card-bimmersticker {
+  @include box-shadow(0 5px 15px 0 rgba(0,0,0,0.1));
+  border-width: 0;
+
+  .card-body {
+    padding: 1.8rem;
+  }
+
+  .card-title {
+    font-family: $font-bold;
+    font-weight: normal;
+    font-size: $font-size-21;
+
+    .pricetag {
+      font-size: $font-size-28;
+      float: right;
+      bottom: 0.3rem;
+      position: relative;
+
+      sup {
+        font-size: 60%;
+        margin-left: 0.3rem;
+        border-bottom: 0.15rem solid #333333;
+      }
+    }
+  }
+
+  .card-text {
+    opacity: 0.6;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+
+    dd{
+      margin-bottom: 0rem;
+    }
+    dt {
+      font-family: $font-bold;
+    }
+  }
+
+  .btn {
+    padding: 0.4rem 1rem 0.375rem 1rem;
+
+    [class^="icon-"], [class*=" icon-"] {
+      vertical-align: -10%;
+      margin-right: 0.5rem;
+    }
+  }
+
+  .card-img-soon {
+    display: none;
+  }
+
+  &.coming-soon {
+    .card-img-top {
+      opacity: 0.4;
+    }
+
+    .card-img-soon {
+      margin-bottom: -3.375rem;
+      position: relative;
+      left: -1rem;
+      top: -5rem;
+      display: block;
+      height: 3.375rem;
+    }
+  }
+}
+
+.card-columns {
+  column-count: 1;
+  column-gap: 2rem;
+
+  .card {
+    margin-bottom: 2rem;
+  }
+
+  @include media-breakpoint-up(md) {
+    column-count: 2;
+  }
+  @include media-breakpoint-up(xl) {
+    column-count: 3;
   }
 }
