@@ -226,6 +226,11 @@ html {
     opacity: 0.2;
     margin-left: 2rem;
 
+    &:hover {
+      text-decoration: none;
+      opacity: 0.4;
+    }
+
     &:last-child {
       margin-left: 0.8rem;
     }
