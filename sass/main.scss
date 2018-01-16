@@ -114,29 +114,6 @@ html {
   }
 }
 
-h2 {
-  font-family: $font-display;
-  text-align: center;
-  margin-bottom: 3.5rem;
-
-  small {
-    font-family: $font-regular;
-    display: block;
-    font-size: $font-size-16;
-  }
-
-  &:after {
-    content: '';
-    width: 5rem;
-    height: 0.1875rem;
-    background: $blue;
-    position: absolute;
-    left: 50%;
-    margin-left: -2.5rem;
-    bottom: -1rem;
-  }
-}
-
 .card-bimmersticker {
   @include box-shadow(0 5px 30px 0 rgba(0,0,0,0.1));
   border-width: 0;
@@ -189,6 +166,12 @@ h2 {
 
   .card-img-soon {
     display: none;
+    margin-bottom: -3.375rem;
+    position: relative;
+    left: -0.625rem;
+    top: -5rem;
+    height: 3rem;
+    width: 10.25rem;
   }
 
   &.coming-soon {
@@ -197,13 +180,7 @@ h2 {
     }
 
     .card-img-soon {
-      margin-bottom: -3.375rem;
-      position: relative;
-      left: -1rem;
-      top: -5rem;
       display: block;
-      height: 3.375rem;
-      width: 10.25rem;
     }
   }
 }

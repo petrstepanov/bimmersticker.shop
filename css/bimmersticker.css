@@ -521,6 +521,28 @@ mark,
   .blockquote-footer::before {
     content: "\2014 \00A0"; }
 
+h2 {
+  font-family: "coolveticaregular", Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-bottom: 3.5rem; }
+  @media (min-width: 992px) {
+    h2 {
+      margin-top: 1rem;
+      margin-bottom: 4.5rem; } }
+  h2 small {
+    font-family: "noto_sansregular", Arial, Helvetica, sans-serif;
+    display: block;
+    font-size: 1rem; }
+  h2:after {
+    content: '';
+    width: 5rem;
+    height: 0.1875rem;
+    background: #008ac9;
+    position: absolute;
+    left: 50%;
+    margin-left: -2.5rem;
+    bottom: -1rem; }
+
 .img-fluid {
   max-width: 100%;
   height: auto; }
@@ -6250,24 +6272,6 @@ html {
       .jumbotron-bimmersticker h1 {
         font-size: 2.3125rem; } }
 
-h2 {
-  font-family: "coolveticaregular", Arial, Helvetica, sans-serif;
-  text-align: center;
-  margin-bottom: 3.5rem; }
-  h2 small {
-    font-family: "noto_sansregular", Arial, Helvetica, sans-serif;
-    display: block;
-    font-size: 1rem; }
-  h2:after {
-    content: '';
-    width: 5rem;
-    height: 0.1875rem;
-    background: #008ac9;
-    position: absolute;
-    left: 50%;
-    margin-left: -2.5rem;
-    bottom: -1rem; }
-
 .card-bimmersticker {
   box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.1);
   border-width: 0; }
@@ -6301,17 +6305,17 @@ h2 {
       vertical-align: -10%;
       margin-right: 0.5rem; }
   .card-bimmersticker .card-img-soon {
-    display: none; }
+    display: none;
+    margin-bottom: -3.375rem;
+    position: relative;
+    left: -0.625rem;
+    top: -5rem;
+    height: 3rem;
+    width: 10.25rem; }
   .card-bimmersticker.coming-soon .card-img-top {
     opacity: 0.4; }
   .card-bimmersticker.coming-soon .card-img-soon {
-    margin-bottom: -3.375rem;
-    position: relative;
-    left: -1rem;
-    top: -5rem;
-    display: block;
-    height: 3.375rem;
-    width: 10.25rem; }
+    display: block; }
 
 .card-columns {
   column-count: 1;

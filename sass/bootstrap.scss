@@ -13,6 +13,35 @@
 @import "./../node_modules/bootstrap/scss/root";
 @import "./../node_modules/bootstrap/scss/reboot";
 @import "./../node_modules/bootstrap/scss/type";
+
+h2 {
+  font-family: $font-display;
+  text-align: center;
+  margin-bottom: 3.5rem;
+
+  @include media-breakpoint-up(lg) {
+    margin-top: 1rem;
+    margin-bottom: 4.5rem;
+  }
+
+  small {
+    font-family: $font-regular;
+    display: block;
+    font-size: $font-size-16;
+  }
+
+  &:after {
+    content: '';
+    width: 5rem;
+    height: 0.1875rem;
+    background: $blue;
+    position: absolute;
+    left: 50%;
+    margin-left: -2.5rem;
+    bottom: -1rem;
+  }
+}
+
 @import "./../node_modules/bootstrap/scss/images";
 @import "./../node_modules/bootstrap/scss/code";
 @import "./../node_modules/bootstrap/scss/grid";
