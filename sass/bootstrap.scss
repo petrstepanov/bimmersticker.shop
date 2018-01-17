@@ -15,12 +15,23 @@
 @import "./../node_modules/bootstrap/scss/type";
 
 h2 {
+  margin-top: 2rem;
   font-family: $font-display;
   text-align: center;
   margin-bottom: 3.5rem;
 
+  @include media-breakpoint-up(sm) {
+    margin-top: 2rem;
+    margin-bottom: 4.5rem;
+  }
+
+  @include media-breakpoint-up(md) {
+    margin-top: 2rem;
+    margin-bottom: 4.5rem;
+  }
+
   @include media-breakpoint-up(lg) {
-    margin-top: 1rem;
+    margin-top: 3rem;
     margin-bottom: 4.5rem;
   }
 
@@ -47,11 +58,47 @@ h2 {
 @import "./../node_modules/bootstrap/scss/grid";
 @import "./../node_modules/bootstrap/scss/tables";
 @import "./../node_modules/bootstrap/scss/forms";
+
+.form-control {
+  box-shadow: none;
+
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
 @import "./../node_modules/bootstrap/scss/buttons";
+
+.btn {
+  padding-bottom: 0.34rem;
+  font-weight: normal;
+  font-family: $font-bold;
+
+  [class^="icon-"], [class*=" icon-"] {
+    vertical-align: -8%;
+    margin-right: 0.5rem;
+  }
+}
 
 .btn.disabled, .btn:disabled {
     opacity: 0.5;
     box-shadow: none;
+}
+
+.btn-primary {
+  box-shadow: none;
+
+  &:focus, &.focus {
+    box-shadow: none;
+  }
+
+  &:hover {
+    border-color: #0070a3;
+  }
 }
 
 @import "./../node_modules/bootstrap/scss/transitions";
@@ -79,6 +126,11 @@ h2 {
 @import "./../node_modules/bootstrap/scss/pagination";
 @import "./../node_modules/bootstrap/scss/badge";
 @import "./../node_modules/bootstrap/scss/jumbotron";
+
+.jumbotron {
+  margin-bottom: 0;
+}
+
 @import "./../node_modules/bootstrap/scss/alert";
 @import "./../node_modules/bootstrap/scss/progress";
 @import "./../node_modules/bootstrap/scss/media";

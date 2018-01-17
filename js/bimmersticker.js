@@ -14212,7 +14212,7 @@ var htmlHelper = (function () {
               // Only prevent default if animation is actually gonna happen
               event.preventDefault();
               $('html, body').animate({
-                scrollTop: target.offset().top
+                scrollTop: target.offset().top - 32
               }, slow, function() {
                 // Callback after animation
                 // Must change focus!
@@ -14227,6 +14227,16 @@ var htmlHelper = (function () {
               });
             }
           }
+        });
+      },
+      initContactForm: function() {
+        $( "#bimmerstickContactForm" ).submit(function( event ) {
+          event.preventDefault();
+          var contactEmail = "info@bimmersticker.store";
+          var subject = $('#inputSubject').val();
+          var message = $('#textareaMessage').val();
+          var wnd = window.open('mailto:'+contactEmail+'?subject='+subject+'&body='+message);
+          setTimeout(function() {wnd.close();}, 200);
         });
       }
     };
@@ -14245,6 +14255,9 @@ $(document).ready(function(){
   // Smooth link scrolling
   var myHtmlHelper = htmlHelper.getInstance();
   myHtmlHelper.initSmoothLinkScrolling();
+
+  // Init contact form behaviour
+  myHtmlHelper.initContactForm();
 
   // Coming soon cards logic
   var myCardsManipulator = cardsManipulator.getInstance();
