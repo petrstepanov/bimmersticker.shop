@@ -89,13 +89,15 @@ h2 {
     box-shadow: none;
 }
 
-.btn-primary {
+.btn-primary, .btn-secondary {
   box-shadow: none;
 
   &:focus, &.focus {
     box-shadow: none;
   }
+}
 
+.btn-primary {
   &:hover {
     border-color: #0070a3;
   }

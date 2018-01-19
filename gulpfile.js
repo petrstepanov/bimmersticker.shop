@@ -16,11 +16,18 @@ gulp.task('scripts', function() {
     ])
     .pipe(plumber()) // prevents breaking and has to go first here
     .pipe(concat('bimmersticker.js'))
-    // .pipe(uglify())
-    // .pipe(rename({
-    //   suffix: '.min'
-    // }))
+    .pipe(uglify())
+    .pipe(rename({
+      suffix: '.min'
+    }))
     .pipe(gulp.dest('./js'));
+    gulp.src(['./node_modules/jquery/dist/jquery.js',
+              './node_modules/bootstrap/dist/js/bootstrap.js',
+              './js/main.js'
+      ])
+      .pipe(plumber()) // prevents breaking and has to go first here
+      .pipe(concat('bimmersticker.js'))
+      .pipe(gulp.dest('./js'));
 });
 
 gulp.task('sass', function () {

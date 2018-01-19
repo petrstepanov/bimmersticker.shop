@@ -44,8 +44,16 @@ var htmlHelper = (function () {
     var normal = 400;
     var fast = 200;
     return {
-      // Public methods and variables
-      initSmoothLinkScrolling: function () {
+      smoothScrollToLink: function($target){
+        $('html, body').animate({
+          scrollTop: $target.offset().top - 30
+        }, slow);
+      },
+      showDialog: function($target){
+        $target.modal('show');
+      },
+      initSmoothLinkScrolling: function(){
+        var that = this;
         $('a[href*="#"]')
         // Remove links that don't actually link to anything
         .not('[href="#"]')
@@ -57,40 +65,75 @@ var htmlHelper = (function () {
             &&
             location.hostname == this.hostname
           ) {
-            // Figure out element to scroll to
-            var target = $(this.hash);
-            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-            // Does a scroll target exist?
-            if (target.length) {
-              // Only prevent default if animation is actually gonna happen
-              event.preventDefault();
-              $('html, body').animate({
-                scrollTop: target.offset().top - 32
-              }, slow, function() {
-                // Callback after animation
-                // Must change focus!
-                // var $target = $(target);
-                // $target.focus();
-                // if ($target.is(":focus")) { // Checking if the target was focused
-                //   return false;
-                // } else {
-                //   $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
-                //   $target.focus(); // Set focus again
-                // };
-              });
+            // Figure out element to scroll to. First try links on the same page
+            event.preventDefault();
+            var $target = $('a[name=' + this.hash.slice(1) + ']');
+            if ($target.length){
+              that.smoothScrollToLink($target);
+              return 0;
+            }
+            $target = $('.modal' + this.hash);
+            if ($target.length){
+              that.showDialog($target);
             }
           }
         });
       },
+      // Public methods and variables
       initContactForm: function() {
-        $( "#bimmerstickContactForm" ).submit(function( event ) {
-          event.preventDefault();
-          var contactEmail = "info@bimmersticker.store";
+        var contactEmail = "info@bimmersticker.store";
+        $('#inputSubject, #textareaMessage').change(function(){
           var subject = $('#inputSubject').val();
           var message = $('#textareaMessage').val();
-          var wnd = window.open('mailto:'+contactEmail+'?subject='+subject+'&body='+message);
-          setTimeout(function() {wnd.close();}, 200);
+          var newHref = 'mailto:' + contactEmail + '?subject=' + subject + '&body=' + message
+          $('#submitLink').attr('href', newHref);
         });
+        //   var message = $('#textareaMessage').val();
+        $("#bimmerstickContactForm").submit(function( event ) {
+          event.preventDefault();
+          $('#submitLink').click();
+        //   var subject = $('#inputSubject').val();
+        //   var message = $('#textareaMessage').val();
+        //   var wnd = window.open('mailto:'+contactEmail+'?subject='+subject+'&body='+message);
+        //   setTimeout(function() {wnd.close();}, 200);
+        });
+      },
+      handleHashChange: function(hash, callback) {
+        if (hash.slice(1) == "") return 0;
+        // if hashtag is "#modal-..." show modal
+        if (hash.includes("modal")){
+          var hashSubstrings = hash.split("-");
+          var modalName = hashSubstrings[1];
+          $('#'+modalName+'Modal')
+        }
+        // otherwise do smooth scroll to the anchor
+        else {
+          var target = $(hash);
+          target = target.length ? target : $('[name=' + hash.slice(1) + ']');
+          if (target.length){
+            $('html, body').animate({
+              scrollTop: target.offset().top - 32
+            }, 600, callback);
+          }
+        }
+      },
+      initHashChange: function() {
+        var that = this;
+        // Prevent default action on local links with href="#..."
+        $('[href^="#"]').click(function(event){
+          event.preventDefault();
+          window.location.hash = $(this).attr('href');
+        });
+        $(window).on('hashchange',function(){
+          var hash = location.hash.slice();
+          that.handleHashChange(hash);
+        });
+        var hash = location.hash.slice();
+        this.handleHashChange(hash);
+        // Remove modal hashtag on close
+        $("[id~='Modal']").on('hidden.bs.modal', function (e) {
+          window.location.hash = '';
+        })
       }
     };
   };
@@ -105,8 +148,12 @@ var htmlHelper = (function () {
 })();
 
 $(document).ready(function(){
-  // Smooth link scrolling
   var myHtmlHelper = htmlHelper.getInstance();
+
+  // When loaded first check if modal with certain hash exists and show that modal
+  // var hash = location.hash.slice();
+  // myHtmlHelper.initHashChange(hash);
+  // Smooth link scrolling
   myHtmlHelper.initSmoothLinkScrolling();
 
   // Init contact form behaviour
@@ -115,4 +162,9 @@ $(document).ready(function(){
   // Coming soon cards logic
   var myCardsManipulator = cardsManipulator.getInstance();
   myCardsManipulator.initComingSoonCards();
+
+  // iOS10 prevent pinch zoom
+  document.addEventListener('gesturestart', function (event) {
+    event.preventDefault();
+  });
 });
