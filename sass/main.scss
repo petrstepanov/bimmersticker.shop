@@ -138,8 +138,13 @@ body {
   }
 }
 
+.card-col figcaption {
+  display: none;
+}
+
 .card-bimmersticker {
   @extend %my-card;
+  margin-bottom: 2rem;
 
   .card-body {
     padding: $card-padding;
@@ -199,21 +204,21 @@ body {
   }
 }
 
-.card-columns {
-  column-count: 1;
-  column-gap: 2rem;
-
-  .card {
-    margin-bottom: 2rem;
-  }
-
-  @include media-breakpoint-up(md) {
-    column-count: 2;
-  }
-  @include media-breakpoint-up(lg) {
-    column-count: 3;
-  }
-}
+// .card-columns {
+//   column-count: 1;
+//   column-gap: 2rem;
+//
+//   .card {
+//     margin-bottom: 2rem;
+//   }
+//
+//   @include media-breakpoint-up(md) {
+//     column-count: 2;
+//   }
+//   @include media-breakpoint-up(lg) {
+//     column-count: 3;
+//   }
+// }
 
 .footer-bimmersticker {
   background-color: #373a3e;
@@ -263,9 +268,5 @@ body {
 
   @include media-breakpoint-up(lg){
     margin-bottom: 5rem;
-  }
-
-  .btn {
-    display: block;
   }
 }

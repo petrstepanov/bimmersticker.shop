@@ -12,6 +12,7 @@ var gulp = require('gulp'),
 gulp.task('scripts', function() {
   gulp.src(['./node_modules/jquery/dist/jquery.js',
             './node_modules/bootstrap/dist/js/bootstrap.js',
+            './node_modules/shufflejs/dist/shuffle.js',
             './js/main.js'
     ])
     .pipe(plumber()) // prevents breaking and has to go first here
@@ -20,14 +21,16 @@ gulp.task('scripts', function() {
     .pipe(rename({
       suffix: '.min'
     }))
-    .pipe(gulp.dest('./js'));
-    gulp.src(['./node_modules/jquery/dist/jquery.js',
-              './node_modules/bootstrap/dist/js/bootstrap.js',
-              './js/main.js'
-      ])
-      .pipe(plumber()) // prevents breaking and has to go first here
-      .pipe(concat('bimmersticker.js'))
-      .pipe(gulp.dest('./js'));
+    .pipe(gulp.dest('./js/compiled'));
+
+  gulp.src(['./node_modules/jquery/dist/jquery.js',
+            './node_modules/bootstrap/dist/js/bootstrap.js',
+            './node_modules/shufflejs/dist/shuffle.js',
+            './js/main.js'
+    ])
+    .pipe(plumber()) // prevents breaking and has to go first here
+    .pipe(concat('bimmersticker.js'))
+    .pipe(gulp.dest('./js/compiled'));
 });
 
 gulp.task('sass', function () {
