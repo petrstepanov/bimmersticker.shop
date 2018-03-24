@@ -16426,7 +16426,7 @@ var cardsManipulator = (function () {
       //   // Fade in block with cards
       //   $('.js--card-columns').animateCss('fadeIn');
       // });
-    }
+    };
 
     return {
       // Public methods and variables
@@ -16647,9 +16647,15 @@ var cardsManipulator = (function () {
             filterCardsByTag(tag);
           }
         });
+      },
+      initOnLoadFilter: function(){
+        var hash = location.hash.slice();
+        if (hash.slice(1) == "") return 0;
+        var $button = $(".js--filter-toolbar .btn:contains('" + hash.substring(1) + "')");
+        if ($button) $button.click();
       }
     };
-  };
+  }
   return {
     getInstance: function () {
       if ( !instance ) {
@@ -16688,9 +16694,7 @@ var htmlHelper = (function () {
         .click(function(event) {
           // On-page links
           if (
-            location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
-            &&
-            location.hostname == this.hostname
+            location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname
           ) {
             // Figure out element to scroll to. First try links on the same page
             event.preventDefault();
@@ -16712,7 +16716,7 @@ var htmlHelper = (function () {
         $('#inputSubject, #textareaMessage').change(function(){
           var subject = $('#inputSubject').val();
           var message = $('#textareaMessage').val();
-          var newHref = 'mailto:' + contactEmail + '?subject=' + subject + '&body=' + message
+          var newHref = 'mailto:' + contactEmail + '?subject=' + subject + '&body=' + message;
           $('#submitLink').attr('href', newHref);
         });
         //   var message = $('#textareaMessage').val();
@@ -16726,41 +16730,41 @@ var htmlHelper = (function () {
         });
       },
       handleHashChange: function(hash, callback) {
-        if (hash.slice(1) == "") return 0;
-        // if hashtag is "#modal-..." show modal
-        if (hash.includes("modal")){
-          var hashSubstrings = hash.split("-");
-          var modalName = hashSubstrings[1];
-          $('#'+modalName+'Modal')
-        }
-        // otherwise do smooth scroll to the anchor
-        else {
-          var target = $(hash);
-          target = target.length ? target : $('[name=' + hash.slice(1) + ']');
-          if (target.length){
-            $('html, body').animate({
-              scrollTop: target.offset().top - 32
-            }, 600, callback);
-          }
-        }
+        // if (hash.slice(1) == "") return 0;
+        // // if hashtag is "#modal-..." show modal
+        // if (hash.includes("modal")){
+        //   var hashSubstrings = hash.split("-");
+        //   var modalName = hashSubstrings[1];
+        //   $('#'+modalName+'Modal').modal();
+        //   return 0;
+        // }
+        //
+        // // otherwise do smooth scroll to the anchor
+        // var target = $(hash);
+        // target = target.length ? target : $('[name=' + hash.slice(1) + ']');
+        // if (target.length){
+        //   $('html, body').animate({
+        //     scrollTop: target.offset().top - 32
+        //   }, 600, callback);
+        // }
       },
       initHashChange: function() {
-        var that = this;
-        // Prevent default action on local links with href="#..."
-        $('[href^="#"]').click(function(event){
-          event.preventDefault();
-          window.location.hash = $(this).attr('href');
-        });
-        $(window).on('hashchange',function(){
-          var hash = location.hash.slice();
-          that.handleHashChange(hash);
-        });
-        var hash = location.hash.slice();
-        this.handleHashChange(hash);
-        // Remove modal hashtag on close
-        $("[id~='Modal']").on('hidden.bs.modal', function (e) {
-          window.location.hash = '';
-        })
+        // var that = this;
+        // // Prevent default action on local links with href="#..."
+        // $('[href^="#"]').click(function(event){
+        //   event.preventDefault();
+        //   window.location.hash = $(this).attr('href');
+        // });
+        // $(window).on('hashchange',function(){
+        //   var hash = location.hash.slice();
+        //   that.handleHashChange(hash);
+        // });
+        // var hash = location.hash.slice();
+        // this.handleHashChange(hash);
+        // // Remove modal hashtag on close
+        // $("[id~='Modal']").on('hidden.bs.modal', function (e) {
+        //   window.location.hash = '';
+        // });
       },
       initAnimateCss: function() {
         $.fn.extend({
@@ -16788,7 +16792,7 @@ var htmlHelper = (function () {
         });
       }
     };
-  };
+  }
   return {
     getInstance: function () {
       if ( !instance ) {
@@ -16813,6 +16817,8 @@ $(document).ready(function(){
   myCardsManipulator.initComingSoonCards();
   myCardsManipulator.initShuffleStyleFilter();
   myCardsManipulator.initCardsFilter();
+  // Check if special bmw mode was selected from adwords
+  myCardsManipulator.initOnLoadFilter();
 
   // iOS10 prevent pinch zoom
   document.addEventListener('gesturestart', function (event) {
