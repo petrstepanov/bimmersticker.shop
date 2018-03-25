@@ -1,0 +1,29 @@
+<!-- Navbar -->
+<nav class="navbar navbar-expand-md navbar-light navbar-bimmersticker">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="img/logo.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+      <span>Bimmer Sticker Store</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExample07">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#stickers"><span class="icon-sticker-fill d-inline d-md-none"></span><span class="pl-3">Browse Stickers</span></a>
+        </li>
+       <li class="nav-item">
+          <a class="nav-link" href="#contact"><span class="icon-mail-fill d-inline d-md-none"></span><span class="pl-3">Contact Us</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" rel="nofollow" target="_blank" href="https://www.facebook.com/bimmersticker.store/"><span class="icon-facebook-fill"></span><span class="d-md-none pl-3">Like Us on Facebook</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" rel="nofollow" target="_blank" href="https://www.instagram.com/bimmersticker.store/"><span class="icon-instagram-fill"></span><span class="d-md-none pl-3">Follow Our Instagram</span></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

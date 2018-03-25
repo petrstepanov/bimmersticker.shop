@@ -1,0 +1,398 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <!--#set var="TITLE"       value="Bimmer Sticker Store" -->
+    <!--#set var="DESCRIPTION" value="Handcrafted stickers for your BMW. We offer free shipping across US." -->
+    <!--#include virtual="ssi/head.shtml" -->
+    <body>
+      <!--#include virtual="ssi/navbar.shtml" -->
+      <div class="jumbotron jumbotron-fluid jumbotron-bimmersticker">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm">
+              <h1 class="padded-multiline mt-3"><span>Handcrafted stickers for your BMW</span></h1>
+              <p class="padded-multiline"><span>Free US shipping. We ship worldwide.</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container pb-3">
+        <div class="row justify-content-center">
+          <h2 class="col-sm-12 col-md-10">
+            <a name="stickers">Stickers for sale</a>
+            <small class="text-muted mt-2 mb-1">More stickers coming soon! Subscribe to our <a rel="nofollow" target="_blank" href="https://www.instagram.com/bimmersticker.store/">Instagram page</a> and stay tuned for updates!</small>
+          </h2>
+        </div>
+        <div class="row mb-4 pb-2">
+          <div class="col-sm-12 js--filter-toolbar">
+            <button type="button" class="btn btn-sm btn-primary active mr-2">All</button>
+            <button type="button" class="btn btn-sm btn-link mr-2">1er</button>
+            <button type="button" class="btn btn-sm btn-link mr-2">2er</button>
+            <button type="button" class="btn btn-sm btn-link mr-2">3er</button>
+            <button type="button" class="btn btn-sm btn-link mr-2">4er</button>
+            <button type="button" class="btn btn-sm btn-link mr-2">5er</button>
+            <button type="button" class="btn btn-sm btn-link mr-2">7er</button>
+          </div>
+        </div>
+        <div id="grid" class="row my-shuffle-container">
+          <!--#set var="STICKER_TITLE"    value="1series Sticker" -->
+          <!--#set var="STICKER_GROUPS"   value="[\"1er\"]" -->
+          <!--#set var="STICKER_IMG"      value="img/sticker-1series.jpg" -->
+          <!--#set var="STICKER_IMG_ALT"  value="bmw 1series window sticker stance motorsport drift decal" -->
+          <!--#set var="STICKER_DOLLARS"  value="6" -->
+          <!--#set var="STICKER_CENTS"    value="99" -->
+          <!--#set var="STICKER_SIZE"     value="8½ × 3 in (22 × 7.6 cm)" -->
+          <!--#set var="STICKER_URL"     value="http://r.ebay.com/z5Wr0C" -->
+          <!--#include virtual="ssi/sticker.shtml" -->
+
+          <!--#set var="STICKER_TITLE"    value="2series Sticker" -->
+          <!--#set var="STICKER_GROUPS"   value="[\"2er\"]" -->
+          <!--#set var="STICKER_IMG"      value="img/sticker-2series.jpg" -->
+          <!--#set var="STICKER_IMG_ALT"  value="bmw 2series window sticker stance motorsport drift decal" -->
+          <!--#set var="STICKER_DOLLARS"  value="6" -->
+          <!--#set var="STICKER_CENTS"    value="99" -->
+          <!--#set var="STICKER_SIZE"     value="8½ × 3 in (22 × 7.6 cm)" -->
+          <!--#set var="STICKER_URL"     value="http://r.ebay.com/g9P7xa" -->
+          <!--#include virtual="ssi/sticker.shtml" -->
+
+          <!--#set var="STICKER_TITLE"    value="3series Sticker" -->
+          <!--#set var="STICKER_GROUPS"   value="[\"3er\"]" -->
+          <!--#set var="STICKER_IMG"      value="img/sticker-3series.jpg" -->
+          <!--#set var="STICKER_IMG_ALT"  value="bmw 3series window sticker stance motorsport drift decal" -->
+          <!--#set var="STICKER_DOLLARS"  value="6" -->
+          <!--#set var="STICKER_CENTS"    value="99" -->
+          <!--#set var="STICKER_SIZE"     value="8½ × 3 in (22 × 7.6 cm)" -->
+          <!--#set var="STICKER_URL"     value="http://r.ebay.com/PjQ7DM" -->
+          <!--#include virtual="ssi/sticker.shtml" -->
+
+          <!--#set var="STICKER_TITLE"    value="4series Sticker" -->
+          <!--#set var="STICKER_GROUPS"   value="[\"4er\"]" -->
+          <!--#set var="STICKER_IMG"      value="img/sticker-4series.jpg" -->
+          <!--#set var="STICKER_IMG_ALT"  value="bmw 4series window sticker stance motorsport drift decal" -->
+          <!--#set var="STICKER_DOLLARS"  value="6" -->
+          <!--#set var="STICKER_CENTS"    value="99" -->
+          <!--#set var="STICKER_SIZE"     value="8½ × 3 in (22 × 7.6 cm)" -->
+          <!--#set var="STICKER_URL"     value="http://r.ebay.com/SWIe48" -->
+          <!--#include virtual="ssi/sticker.shtml" -->
+
+          <!--#set var="STICKER_TITLE"    value="5series Sticker" -->
+          <!--#set var="STICKER_GROUPS"   value="[\"5er\"]" -->
+          <!--#set var="STICKER_IMG"      value="img/sticker-5series.jpg" -->
+          <!--#set var="STICKER_IMG_ALT"  value="bmw 5series window sticker stance motorsport drift decal" -->
+          <!--#set var="STICKER_DOLLARS"  value="6" -->
+          <!--#set var="STICKER_CENTS"    value="99" -->
+          <!--#set var="STICKER_SIZE"     value="8½ × 3 in (22 × 7.6 cm)" -->
+          <!--#set var="STICKER_URL"     value="http://r.ebay.com/DVITE1" -->
+          <!--#include virtual="ssi/sticker.shtml" -->
+
+          <!--#set var="STICKER_TITLE"    value="7series Sticker" -->
+          <!--#set var="STICKER_GROUPS"   value="[\"7er\"]" -->
+          <!--#set var="STICKER_IMG"      value="img/sticker-7series.jpg" -->
+          <!--#set var="STICKER_IMG_ALT"  value="bmw 7series window sticker stance motorsport drift decal" -->
+          <!--#set var="STICKER_DOLLARS"  value="6" -->
+          <!--#set var="STICKER_CENTS"    value="99" -->
+          <!--#set var="STICKER_SIZE"     value="8½ × 3 in (22 × 7.6 cm)" -->
+          <!--#set var="STICKER_URL"     value="http://r.ebay.com/17wX1H" -->
+          <!--#include virtual="ssi/sticker.shtml" -->
+
+          <!--#set var="STICKER_TITLE"    value="#bimmer4life Sticker" -->
+          <!--#set var="STICKER_GROUPS"   value="[\"1er\",\"2er\",\"3er\",\"4er\",\"5er\",\"7er\"]" -->
+          <!--#set var="STICKER_IMG"      value="img/sticker-bimmer4life.jpg" -->
+          <!--#set var="STICKER_IMG_ALT"  value="BMW windshield sticker stance static bagged dapper illest canibeat hoonigan" -->
+          <!--#set var="STICKER_DOLLARS"  value="19" -->
+          <!--#set var="STICKER_CENTS"    value="99" -->
+          <!--#set var="STICKER_SIZE"     value="36 × 8½ in (92 × 22 cm)" -->
+          <!--#set var="STICKER_URL"     value="http://r.ebay.com/X7LHBf" -->
+          <!--#include virtual="ssi/sticker.shtml" -->
+
+          <!--#set var="STICKER_TITLE"    value="lowerthanground Sticker" -->
+          <!--#set var="STICKER_GROUPS"   value="[\"1er\",\"2er\",\"3er\",\"4er\",\"5er\",\"7er\"]" -->
+          <!--#set var="STICKER_IMG"      value="img/sticker-lowerthanground.jpg" -->
+          <!--#set var="STICKER_IMG_ALT"  value="bmw windshield sticker stance static bagged dapper illest canibeat hoonigan" -->
+          <!--#set var="STICKER_DOLLARS"  value="19" -->
+          <!--#set var="STICKER_CENTS"    value="99" -->
+          <!--#set var="STICKER_SIZE"     value="36 × 7½ in (92 × 19 cm)" -->
+          <!--#set var="STICKER_URL"     value="http://r.ebay.com/IOdlIH" -->
+          <!--#include virtual="ssi/sticker.shtml" -->
+
+          <!--#set var="STICKER_TITLE"    value="e12 Sticker" -->
+          <!--#set var="STICKER_GROUPS"   value="[\"5er\"]" -->
+          <!--#set var="STICKER_IMG"      value="img/sticker-e12.jpg" -->
+          <!--#set var="STICKER_IMG_ALT"  value="bmw e30 window sticker stance motorsport drift decal" -->
+          <!--#set var="STICKER_DOLLARS"  value="4" -->
+          <!--#set var="STICKER_CENTS"    value="99" -->
+          <!--#set var="STICKER_SIZE"     value="6¼ × 3½ in (16 × 9 cm)" -->
+          <!--#set var="STICKER_URL"     value="http://r.ebay.com/33lFnr" -->
+          <!--#include virtual="ssi/sticker.shtml" -->
+
+          <!--#set var="STICKER_TITLE"    value="e21 Sticker" -->
+          <!--#set var="STICKER_GROUPS"   value="[\"3er\"]" -->
+          <!--#set var="STICKER_IMG"      value="img/sticker-e21.jpg" -->
+          <!--#set var="STICKER_IMG_ALT"  value="bmw e21 window sticker stance motorsport drift decal" -->
+          <!--#set var="STICKER_DOLLARS"  value="4" -->
+          <!--#set var="STICKER_CENTS"    value="99" -->
+          <!--#set var="STICKER_SIZE"     value="6¼ × 3½ in (16 × 9 cm)" -->
+          <!--#set var="STICKER_URL"     value="http://r.ebay.com/cF3ALV" -->
+          <!--#include virtual="ssi/sticker.shtml" -->
+
+          <!--#set var="STICKER_TITLE"    value="e23 Sticker" -->
+          <!--#set var="STICKER_GROUPS"   value="[\"7er\"]" -->
+          <!--#set var="STICKER_IMG"      value="img/sticker-e23.jpg" -->
+          <!--#set var="STICKER_IMG_ALT"  value="bmw e23 window sticker stance motorsport drift decal" -->
+          <!--#set var="STICKER_DOLLARS"  value="4" -->
+          <!--#set var="STICKER_CENTS"    value="99" -->
+          <!--#set var="STICKER_SIZE"     value="6¼ × 3½ in (16 × 9 cm)" -->
+          <!--#set var="STICKER_URL"     value="http://r.ebay.com/oAaKN2" -->
+          <!--#include virtual="ssi/sticker.shtml" -->
+
+          <!--#set var="STICKER_TITLE"    value="e28 Sticker" -->
+          <!--#set var="STICKER_GROUPS"   value="[\"5er\"]" -->
+          <!--#set var="STICKER_IMG"      value="img/sticker-e28.jpg" -->
+          <!--#set var="STICKER_IMG_ALT"  value="bmw e28 window sticker stance motorsport drift decal" -->
+          <!--#set var="STICKER_DOLLARS"  value="4" -->
+          <!--#set var="STICKER_CENTS"    value="99" -->
+          <!--#set var="STICKER_SIZE"     value="6¼ × 3½ in (16 × 9 cm)" -->
+          <!--#set var="STICKER_URL"     value="http://r.ebay.com/MvaM3u" -->
+          <!--#include virtual="ssi/sticker.shtml" -->
+
+          <!--#set var="STICKER_TITLE"    value="e30 Sticker" -->
+          <!--#set var="STICKER_GROUPS"   value="[\"3er\"]" -->
+          <!--#set var="STICKER_IMG"      value="img/sticker-e30.jpg" -->
+          <!--#set var="STICKER_IMG_ALT"  value="bmw e30 window sticker stance motorsport drift decal" -->
+          <!--#set var="STICKER_DOLLARS"  value="4" -->
+          <!--#set var="STICKER_CENTS"    value="99" -->
+          <!--#set var="STICKER_SIZE"     value="6¼ × 3½ in (16 × 9 cm)" -->
+          <!--#set var="STICKER_URL"     value="http://r.ebay.com/cz49k7" -->
+          <!--#include virtual="ssi/sticker.shtml" -->
+
+          <!--#set var="STICKER_TITLE"    value="e32 Sticker" -->
+          <!--#set var="STICKER_GROUPS"   value="[\"7er\"]" -->
+          <!--#set var="STICKER_IMG"      value="img/sticker-e32.jpg" -->
+          <!--#set var="STICKER_IMG_ALT"  value="bmw e32 window sticker stance motorsport drift decal" -->
+          <!--#set var="STICKER_DOLLARS"  value="4" -->
+          <!--#set var="STICKER_CENTS"    value="99" -->
+          <!--#set var="STICKER_SIZE"     value="6¼ × 3½ in (16 × 9 cm)" -->
+          <!--#set var="STICKER_URL"     value="http://r.ebay.com/dTig0O" -->
+          <!--#include virtual="ssi/sticker.shtml" -->
+
+          <!--#set var="STICKER_TITLE"    value="e34 Sticker" -->
+          <!--#set var="STICKER_GROUPS"   value="[\"5er\"]" -->
+          <!--#set var="STICKER_IMG"      value="img/sticker-e34.jpg" -->
+          <!--#set var="STICKER_IMG_ALT"  value="bmw e34 window sticker stance motorsport drift decal" -->
+          <!--#set var="STICKER_DOLLARS"  value="4" -->
+          <!--#set var="STICKER_CENTS"    value="99" -->
+          <!--#set var="STICKER_SIZE"     value="6¼ × 3½ in (16 × 9 cm)" -->
+          <!--#set var="STICKER_URL"     value="http://r.ebay.com/DJhYVz" -->
+          <!--#include virtual="ssi/sticker.shtml" -->
+
+          <!--#set var="STICKER_TITLE"    value="e36 Sticker" -->
+          <!--#set var="STICKER_GROUPS"   value="[\"3er\"]" -->
+          <!--#set var="STICKER_IMG"      value="img/sticker-e36.jpg" -->
+          <!--#set var="STICKER_IMG_ALT"  value="bmw e36 window sticker stance motorsport drift decal" -->
+          <!--#set var="STICKER_DOLLARS"  value="4" -->
+          <!--#set var="STICKER_CENTS"    value="99" -->
+          <!--#set var="STICKER_SIZE"     value="6¼ × 3½ in (16 × 9 cm)" -->
+          <!--#set var="STICKER_URL"     value="http://r.ebay.com/xwScAB" -->
+          <!--#include virtual="ssi/sticker.shtml" -->
+
+          <!--#set var="STICKER_TITLE"    value="e38 Sticker" -->
+          <!--#set var="STICKER_GROUPS"   value="[\"7er\"]" -->
+          <!--#set var="STICKER_IMG"      value="img/sticker-e38.jpg" -->
+          <!--#set var="STICKER_IMG_ALT"  value="bmw e38 window sticker stance motorsport drift decal" -->
+          <!--#set var="STICKER_DOLLARS"  value="4" -->
+          <!--#set var="STICKER_CENTS"    value="99" -->
+          <!--#set var="STICKER_SIZE"     value="6¼ × 3½ in (16 × 9 cm)" -->
+          <!--#set var="STICKER_URL"     value="http://r.ebay.com/ug74Uj" -->
+          <!--#include virtual="ssi/sticker.shtml" -->
+
+          <!--#set var="STICKER_TITLE"    value="e39 Sticker" -->
+          <!--#set var="STICKER_GROUPS"   value="[\"5er\"]" -->
+          <!--#set var="STICKER_IMG"      value="img/sticker-e39.jpg" -->
+          <!--#set var="STICKER_IMG_ALT"  value="bmw e39 window sticker stance motorsport drift decal" -->
+          <!--#set var="STICKER_DOLLARS"  value="4" -->
+          <!--#set var="STICKER_CENTS"    value="99" -->
+          <!--#set var="STICKER_SIZE"     value="6¼ × 3½ in (16 × 9 cm)" -->
+          <!--#set var="STICKER_URL"     value="http://r.ebay.com/SIJpzz" -->
+          <!--#include virtual="ssi/sticker.shtml" -->
+
+          <!--#set var="STICKER_TITLE"    value="e46 Sticker" -->
+          <!--#set var="STICKER_GROUPS"   value="[\"3er\"]" -->
+          <!--#set var="STICKER_IMG"      value="img/sticker-e46.jpg" -->
+          <!--#set var="STICKER_IMG_ALT"  value="bmw e46 window sticker stance motorsport drift decal" -->
+          <!--#set var="STICKER_DOLLARS"  value="4" -->
+          <!--#set var="STICKER_CENTS"    value="99" -->
+          <!--#set var="STICKER_SIZE"     value="6¼ × 3½ in (16 × 9 cm)" -->
+          <!--#set var="STICKER_URL"     value="http://r.ebay.com/FEAAK1" -->
+          <!--#include virtual="ssi/sticker.shtml" -->
+
+          <!--#set var="STICKER_TITLE"    value="e60 Sticker" -->
+          <!--#set var="STICKER_GROUPS"   value="[\"5er\"]" -->
+          <!--#set var="STICKER_IMG"      value="img/sticker-e60.jpg" -->
+          <!--#set var="STICKER_IMG_ALT"  value="bmw e60 window sticker stance motorsport drift decal" -->
+          <!--#set var="STICKER_DOLLARS"  value="4" -->
+          <!--#set var="STICKER_CENTS"    value="99" -->
+          <!--#set var="STICKER_SIZE"     value="6¼ × 3½ in (16 × 9 cm)" -->
+          <!--#set var="STICKER_URL"     value="http://r.ebay.com/Xf1Vvr" -->
+          <!--#include virtual="ssi/sticker.shtml" -->
+
+          <!--#set var="STICKER_TITLE"    value="e61 Sticker" -->
+          <!--#set var="STICKER_GROUPS"   value="[\"5er\"]" -->
+          <!--#set var="STICKER_IMG"      value="img/sticker-e61.jpg" -->
+          <!--#set var="STICKER_IMG_ALT"  value="bmw e61 window sticker stance motorsport drift decal" -->
+          <!--#set var="STICKER_DOLLARS"  value="4" -->
+          <!--#set var="STICKER_CENTS"    value="99" -->
+          <!--#set var="STICKER_SIZE"     value="6¼ × 3½ in (16 × 9 cm)" -->
+          <!--#set var="STICKER_URL"     value="http://r.ebay.com/eM02LU" -->
+          <!--#include virtual="ssi/sticker.shtml" -->
+
+          <!--#set var="STICKER_TITLE"    value="e90 Sticker" -->
+          <!--#set var="STICKER_GROUPS"   value="[\"3er\"]" -->
+          <!--#set var="STICKER_IMG"      value="img/sticker-e90.jpg" -->
+          <!--#set var="STICKER_IMG_ALT"  value="bmw e90 window sticker stance motorsport drift decal" -->
+          <!--#set var="STICKER_DOLLARS"  value="4" -->
+          <!--#set var="STICKER_CENTS"    value="99" -->
+          <!--#set var="STICKER_SIZE"     value="6¼ × 3½ in (16 × 9 cm)" -->
+          <!--#set var="STICKER_URL"     value="http://r.ebay.com/MSGriE" -->
+          <!--#include virtual="ssi/sticker.shtml" -->
+
+          <!--#set var="STICKER_TITLE"    value="e91 Sticker" -->
+          <!--#set var="STICKER_GROUPS"   value="[\"3er\"]" -->
+          <!--#set var="STICKER_IMG"      value="img/sticker-e91.jpg" -->
+          <!--#set var="STICKER_IMG_ALT"  value="bmw e91 window sticker stance motorsport drift decal" -->
+          <!--#set var="STICKER_DOLLARS"  value="4" -->
+          <!--#set var="STICKER_CENTS"    value="99" -->
+          <!--#set var="STICKER_SIZE"     value="6¼ × 3½ in (16 × 9 cm)" -->
+          <!--#set var="STICKER_URL"     value="http://r.ebay.com/4K3zxG" -->
+          <!--#include virtual="ssi/sticker.shtml" -->
+
+          <!--#set var="STICKER_TITLE"    value="e92 Sticker" -->
+          <!--#set var="STICKER_GROUPS"   value="[\"3er\"]" -->
+          <!--#set var="STICKER_IMG"      value="img/sticker-e92.jpg" -->
+          <!--#set var="STICKER_IMG_ALT"  value="bmw e92 window sticker stance motorsport drift decal" -->
+          <!--#set var="STICKER_DOLLARS"  value="4" -->
+          <!--#set var="STICKER_CENTS"    value="99" -->
+          <!--#set var="STICKER_SIZE"     value="6¼ × 3½ in (16 × 9 cm)" -->
+          <!--#set var="STICKER_URL"     value="http://r.ebay.com/6Bqvfl" -->
+          <!--#include virtual="ssi/sticker.shtml" -->
+
+          <!--#set var="STICKER_TITLE"    value="f30 Sticker" -->
+          <!--#set var="STICKER_GROUPS"   value="[\"3er\"]" -->
+          <!--#set var="STICKER_IMG"      value="img/sticker-f30.jpg" -->
+          <!--#set var="STICKER_IMG_ALT"  value="bmw f30 window sticker stance motorsport drift decal" -->
+          <!--#set var="STICKER_DOLLARS"  value="4" -->
+          <!--#set var="STICKER_CENTS"    value="99" -->
+          <!--#set var="STICKER_SIZE"     value="6¼ × 3½ in (16 × 9 cm)" -->
+          <!--#set var="STICKER_URL"     value="http://r.ebay.com/6w9viN" -->
+          <!--#include virtual="ssi/sticker.shtml" -->
+
+          <!-- <div class="col-xs-1 col-sm-1 col-md-1 my-sizer-element"></div> -->
+        </div>
+      </div>
+      <div class="section-whitesmoke">
+        <div class="container">
+          <div class="row justify-content-center">
+            <h2 class="col-12 col-md-8">
+              <a name="contact">Contact Us</a>
+              <small class="text-muted mt-2 mb-1">Got sticker ideas? Free to use the contact form below. We will make it happen! Make sure the stickers are bimmer related. It’s all about passion :-)</small>
+            </h2>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-12 col-md-8">
+              <form class="bimmerstick-email-form" id="bimmerstickContactForm">
+                <div class="form-group">
+                  <label for="inputSubject">Email Subject</label>
+                  <input type="text" class="form-control" id="inputSubject">
+                </div>
+                <div class="form-group">
+                  <label for="textareaMessage">Your Message</label>
+                  <textarea class="form-control" id="textareaMessage" rows="5"></textarea>
+                </div>
+                <div class="text-center">
+                  <!-- <button type="submit" class="btn btn-primary ml-auto mr-auto" >Send via Your Mail App</button> -->
+                  <a href="mailto:&#105;&#110;&#102;&#111;&#064;&#098;&#105;&#109;&#109;&#101;&#114;&#115;&#116;&#105;&#099;&#107;&#101;&#114;&#046;&#115;&#116;&#111;&#114;&#101;" class="btn btn-primary ml-auto mr-auto" id="submitLink">Send via Your Mail App</a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bimmersticker">
+        <div class="container">
+          <div class="row">
+            <div class="col-3 col-md-6">
+              <img class="logo-transparent" src="img/logo-transparent.svg" alt="bimmersticker logo semitransparent"/>
+              <span class="logo-title d-none d-md-inline">Bimmer Sticker Store</span>
+            </div>
+            <div class="col-9 col-md-6 text-right">
+              <a href="#modal-attributions"><span class="icon-cc"></span> View Attributions</a>
+              <a rel="nofollow" target="_blank" href="https://www.facebook.com/bimmersticker.store/"><span class="icon-facebook-fill"></span></a>
+              <a rel="nofollow" target="_blank" href="https://www.instagram.com/bimmersticker.store/"><span class="icon-instagram-fill"></span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal -->
+      <div class="modal fade" id="modal-attributions" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Image Attributions</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <ul class="list-no-bullets">
+                <li class="mt-2">
+                  "<a rel="nofollow" target="_blank" href="https://www.flickr.com/photos/99731349@N07/17082359181/">15590</a>"
+                  by
+                  <a rel="nofollow" target="_blank" href="https://www.flickr.com/photos/99731349@N07/">Dylanlspangler</a>,
+                  used under <a rel="nofollow" target="_blank" class="external text" href="https://creativecommons.org/licenses/by-sa/2.0/">Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)</a>
+                  / Cropped, removed sticker, added another sticker, reduced saturation
+                </li>
+                <li class="mt-2">
+                  "<a rel="nofollow" target="_blank" href="https://www.flickr.com/photos/99731349@N07/21035168525/">05518</a>"
+                  by
+                  <a rel="nofollow" target="_blank" href="https://www.flickr.com/photos/99731349@N07/">Dylanlspangler</a>,
+                  used under <a rel="nofollow" target="_blank" class="external text" href="https://creativecommons.org/licenses/by-sa/2.0/">Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)</a>
+                  / Cropped, removed windshield sticker and added another sticker
+                </li>
+                <li class="mt-2">
+                  "<a rel="nofollow" target="_blank" href="https://www.flickr.com/photos/bedworth/14359498009/in/photolist-pPdb54-nSUDaM-pNYu7F-pwLUnv-oa69SR-nSUbtT-oaohQ4-nSUR2x-nSTUJB-oaowX2-ocav2v-ocaw9k-nSUNPM-oafwsE-oafxxf-nSTKQA-o8m6AN-ocayTZ-oafHZC-nSTZpt-ipreur">Eddie's BMW E39 5 Series</a>"
+                  by
+                  <a rel="nofollow" target="_blank" href="https://www.flickr.com/photos/bedworth/">Mathew Bedworth</a>,
+                  used under <a rel="nofollow" target="_blank" class="external text" href="https://creativecommons.org/licenses/by/2.0/">Attribution 2.0 Generic (CC BY 2.0)</a>
+                  / Cropped and added a sticker
+                </li>
+                <li class="mt-2">
+                  "<a rel="nofollow" target="_blank" href="https://www.flickr.com/photos/99731349@N07/15451119241/">27171</a>"
+                  by
+                  <a rel="nofollow" target="_blank" href="https://www.flickr.com/photos/99731349@N07/">Dylanlspangler</a>,
+                  used under <a rel="nofollow" target="_blank" class="external text" href="https://creativecommons.org/licenses/by-sa/2.0/">Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)</a>
+                  / Cropped and added a sticker
+                </li>
+                <li class="mt-2">
+                  "<a rel="nofollow" target="_blank" href="https://www.flickr.com/photos/cook88/7712288432/in/photolist-9G6Xgx-9DiUrm-mY7zsC-9Dvtkq-cmogoC-hi1QrJ-aWM49i-oLzK2F-ZyuhdS-ou6pVE-cdzzqE-cdALcb-nb2EaW-nzUsdF-gLjx9E-cdAHQQ-8MW6AL-bTueSP-gLkKHA-cP3xzS-9M5Wwi-ZyufWJ-9Dvtku-oWayq3-9PJ3gK-m6ox6P-9e7XqU-ou6Krx-9PJ3gV-8si7pN-hEcuCN-7XFiVi-9igpyD-fuwvyo-8VoqWz-bTueSH-a1WUdZ-oVyHA6-hEcqph-qB7Vtx-az5nzJ-bEYHnN-cKvuEd-oYz2jo-nucMuz-f2VTYh-8si73u-bWoVHq-hEbMAt-jJciWh/">E36 convertible</a>"
+                  by
+                  <a rel="nofollow" target="_blank" href="https://www.flickr.com/photos/cook88/">Cook24v</a>,
+                  used under <a rel="nofollow" target="_blank" class="external text" href="https://creativecommons.org/licenses/by-nd/2.0/">Attribution-NoDerivs 2.0 Generic (CC BY-ND 2.0)</a>
+                  / Cropped and added a sticker
+                </li>
+                <li class="mt-2">
+                  "<a rel="nofollow" target="_blank" href="https://www.flickr.com/photos/99731349@N07/15613869676/">32226</a>"
+                  by
+                  <a rel="nofollow" target="_blank" href="https://www.flickr.com/photos/99731349@N07/">Dylanlspangler</a>,
+                  used under <a rel="nofollow" target="_blank" class="external text" href="https://creativecommons.org/licenses/by-sa/2.0/">Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)</a>
+                  / Cropped and added a sticker
+                </li>
+              </ul>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Got it. Close the Modal</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="js/compiled/bimmersticker.min.js?123456"></script>
+      <!-- <script src="js/compiled/bimmersticker.js"></script> -->
+    </body>
+</html>
