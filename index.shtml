@@ -35,7 +35,7 @@
           <!--#set var="STICKER_CENTS"    value="99" -->
           <!--#set var="STICKER_SIZE"     value="36 × 8½ in (92 × 22 cm)" -->
           <!--#set var="STICKER_URL"     value="http://r.ebay.com/X7LHBf" -->
-          <!--#include virtual="ssi/sticker.shtml" -->
+          <!--#include virtual="ssi/sticker2.shtml" -->
 
           <!--#set var="STICKER_TITLE"    value="lowerthanground Sticker" -->
           <!--#set var="STICKER_GROUPS"   value="[\"1er\",\"2er\",\"3er\",\"4er\",\"5er\",\"7er\"]" -->
@@ -45,7 +45,7 @@
           <!--#set var="STICKER_CENTS"    value="99" -->
           <!--#set var="STICKER_SIZE"     value="36 × 7½ in (92 × 19 cm)" -->
           <!--#set var="STICKER_URL"     value="http://r.ebay.com/IOdlIH" -->
-          <!--#include virtual="ssi/sticker.shtml" -->
+          <!--#include virtual="ssi/sticker2.shtml" -->
         </div>
         <div class="row justify-content-center">
           <h2 class="mt-2 col-sm-12 col-md-10">
@@ -61,7 +61,7 @@
             <button type="button" class="btn btn-sm btn-link mr-2">3er</button>
             <button type="button" class="btn btn-sm btn-link mr-2">4er</button>
             <button type="button" class="btn btn-sm btn-link mr-2">5er</button>
-            <button type="button" class="btn btn-sm btn-link mr-2">6er</button>            
+            <button type="button" class="btn btn-sm btn-link mr-2">6er</button>
             <button type="button" class="btn btn-sm btn-link mr-2">7er</button>
           </div>
         </div>

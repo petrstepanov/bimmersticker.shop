@@ -1,4 +1,4 @@
-<figure class="card-col col-xs-12 col-md-6 col-lg-4" data-groups='<!--#echo var="STICKER_GROUPS" -->'>
+<figure class="card-col col-xs-12 col-md-6 col-lg-6" data-groups='<!--#echo var="STICKER_GROUPS" -->'>
   <div class="card card-bimmersticker">
     <img class="card-img-top" src="<!--#echo var="STICKER_IMG" -->" alt="<!--#echo var="STICKER_IMG_ALT" -->">
     <div class="card-body">
