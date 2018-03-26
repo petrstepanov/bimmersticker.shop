@@ -1,4 +1,15 @@
-<figure class="card-col col-xs-12 col-md-6 col-lg-4" data-groups='<!--#echo var="STICKER_GROUPS" -->'>
+<!--#if expr="$COLUMNS == 3" -->
+<figure class="card-col col-xs-12 col-md-6 col-lg-4"
+<!--#elif expr="$COLUMNS == 2" -->
+<figure class="card-col col-xs-12 col-md-4 col-lg-6"
+<!--#else -->
+<figure class="card-col col"
+<!--#endif -->
+
+<!--#if expr="$STICKER_GROUPS" -->
+data-groups='<!--#echo var="STICKER_GROUPS" -->'
+<!--#endif -->
+>
   <div class="card card-bimmersticker">
     <img class="card-img-top" src="<!--#echo var="STICKER_IMG" -->" alt="<!--#echo var="STICKER_IMG_ALT" -->">
     <div class="card-body">
@@ -13,6 +24,12 @@
         <dd class="col-8 text-right">ORACAL 651 vinyl</dd>
         <dt class="col-3">Size</dt>
         <dd class="col-9 text-right"><!--#echo encoding="none" var="STICKER_SIZE" --></dd>
+        <!--#if expr="$COLOR_OPTIONS" -->
+          <dt class="col-3 mt-1">Colors</dt>
+          <dd class="col-9 mt-1 text-right">
+            <!--#echo encoding="none" var="COLOR_OPTIONS" -->
+          </dd>
+        <!--#endif -->
       </dl>
       <a href="<!--#echo encoding="none" var="STICKER_URL" -->" target="_blank" rel="nofollow" role="button" class="btn btn-primary"><span class="icon-external"></span> View on eBay</a>
     </div>

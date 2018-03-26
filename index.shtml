@@ -10,7 +10,7 @@
           <div class="row">
             <div class="col-sm">
               <h1 class="padded-multiline mt-3"><span>Handcrafted stickers for your BMW</span></h1>
-              <p class="padded-multiline"><span>Free US shipping. We ship worldwide.</span></p>
+              <p class="padded-multiline"><span>We offer free US and affordable international shipping.</span></p>
             </div>
           </div>
         </div>
@@ -18,8 +18,39 @@
       <div class="container pb-3">
         <div class="row justify-content-center">
           <h2 class="col-sm-12 col-md-10">
-            <a name="stickers">Stickers for sale</a>
-            <small class="text-muted mt-2 mb-1">More stickers coming soon! Subscribe to our <a rel="nofollow" target="_blank" href="https://www.instagram.com/bimmersticker.store/">Instagram page</a> and stay tuned for updates!</small>
+            <a name="stickers">Featured stickers</a>
+            <small class="text-muted mt-2 mb-1">New designs are in progress! Check our Stories on <a rel="nofollow" target="_blank" href="https://www.instagram.com/bimmersticker.store/">Instagram</a> and subscribe for updates!</small>
+          </h2>
+        </div>
+        <div class="row">
+          <!--#set var="COLUMNS" value="2" -->
+          <!--#set var="COLOR_OPTIONS" value="<span class=\"color-dot white\"></span><span class=\"color-dot mint\"></span><span class=\"color-dot pink\"></span>" -->
+
+
+          <!--#set var="STICKER_TITLE"    value="#bimmer4life Sticker" -->
+          <!--#set var="STICKER_GROUPS"   value="[\"1er\",\"2er\",\"3er\",\"4er\",\"5er\",\"7er\"]" -->
+          <!--#set var="STICKER_IMG"      value="img/sticker-bimmer4life.jpg" -->
+          <!--#set var="STICKER_IMG_ALT"  value="BMW windshield sticker stance static bagged dapper illest canibeat hoonigan" -->
+          <!--#set var="STICKER_DOLLARS"  value="19" -->
+          <!--#set var="STICKER_CENTS"    value="99" -->
+          <!--#set var="STICKER_SIZE"     value="36 × 8½ in (92 × 22 cm)" -->
+          <!--#set var="STICKER_URL"     value="http://r.ebay.com/X7LHBf" -->
+          <!--#include virtual="ssi/sticker.shtml" -->
+
+          <!--#set var="STICKER_TITLE"    value="lowerthanground Sticker" -->
+          <!--#set var="STICKER_GROUPS"   value="[\"1er\",\"2er\",\"3er\",\"4er\",\"5er\",\"7er\"]" -->
+          <!--#set var="STICKER_IMG"      value="img/sticker-lowerthanground.jpg" -->
+          <!--#set var="STICKER_IMG_ALT"  value="bmw windshield sticker stance static bagged dapper illest canibeat hoonigan" -->
+          <!--#set var="STICKER_DOLLARS"  value="19" -->
+          <!--#set var="STICKER_CENTS"    value="99" -->
+          <!--#set var="STICKER_SIZE"     value="36 × 7½ in (92 × 19 cm)" -->
+          <!--#set var="STICKER_URL"     value="http://r.ebay.com/IOdlIH" -->
+          <!--#include virtual="ssi/sticker.shtml" -->
+        </div>
+        <div class="row justify-content-center">
+          <h2 class="mt-2 col-sm-12 col-md-10">
+            Series and generations
+            <small class="text-muted mt-2 mb-1">If you don't find a sticker for your BMW model please request one in the <a href="#contact">Contact Form</a> below. We'll make one ASAP.</small>
           </h2>
         </div>
         <div class="row mb-4 pb-2">
@@ -30,10 +61,14 @@
             <button type="button" class="btn btn-sm btn-link mr-2">3er</button>
             <button type="button" class="btn btn-sm btn-link mr-2">4er</button>
             <button type="button" class="btn btn-sm btn-link mr-2">5er</button>
+            <button type="button" class="btn btn-sm btn-link mr-2">6er</button>            
             <button type="button" class="btn btn-sm btn-link mr-2">7er</button>
           </div>
         </div>
         <div id="grid" class="row my-shuffle-container">
+          <!--#set var="COLUMNS" value="3" -->
+          <!--#set var="COLOR_OPTIONS" value="<span class=\"color-dot white\"></span><span class=\"color-dot lilac\"></span><span class=\"color-dot yellow\"></span><span class=\"color-dot red\"></span><span class=\"color-dot blue\"></span><span class=\"color-dot black\"></span><span class=\"color-dot mint\"></span><span class=\"color-dot orange\"></span><span class=\"color-dot pink\"></span>" -->
+
           <!--#set var="STICKER_TITLE"    value="1series Sticker" -->
           <!--#set var="STICKER_GROUPS"   value="[\"1er\"]" -->
           <!--#set var="STICKER_IMG"      value="img/sticker-1series.jpg" -->
@@ -84,6 +119,16 @@
           <!--#set var="STICKER_URL"     value="http://r.ebay.com/DVITE1" -->
           <!--#include virtual="ssi/sticker.shtml" -->
 
+          <!--#set var="STICKER_TITLE"    value="6series Sticker" -->
+          <!--#set var="STICKER_GROUPS"   value="[\"6er\"]" -->
+          <!--#set var="STICKER_IMG"      value="img/sticker-6series.jpg" -->
+          <!--#set var="STICKER_IMG_ALT"  value="bmw 6series window sticker stance motorsport drift decal" -->
+          <!--#set var="STICKER_DOLLARS"  value="6" -->
+          <!--#set var="STICKER_CENTS"    value="99" -->
+          <!--#set var="STICKER_SIZE"     value="8½ × 3 in (22 × 7.6 cm)" -->
+          <!--#set var="STICKER_URL"     value="http://r.ebay.com/o2JCnp" -->
+          <!--#include virtual="ssi/sticker.shtml" -->
+
           <!--#set var="STICKER_TITLE"    value="7series Sticker" -->
           <!--#set var="STICKER_GROUPS"   value="[\"7er\"]" -->
           <!--#set var="STICKER_IMG"      value="img/sticker-7series.jpg" -->
@@ -92,26 +137,6 @@
           <!--#set var="STICKER_CENTS"    value="99" -->
           <!--#set var="STICKER_SIZE"     value="8½ × 3 in (22 × 7.6 cm)" -->
           <!--#set var="STICKER_URL"     value="http://r.ebay.com/17wX1H" -->
-          <!--#include virtual="ssi/sticker.shtml" -->
-
-          <!--#set var="STICKER_TITLE"    value="#bimmer4life Sticker" -->
-          <!--#set var="STICKER_GROUPS"   value="[\"1er\",\"2er\",\"3er\",\"4er\",\"5er\",\"7er\"]" -->
-          <!--#set var="STICKER_IMG"      value="img/sticker-bimmer4life.jpg" -->
-          <!--#set var="STICKER_IMG_ALT"  value="BMW windshield sticker stance static bagged dapper illest canibeat hoonigan" -->
-          <!--#set var="STICKER_DOLLARS"  value="19" -->
-          <!--#set var="STICKER_CENTS"    value="99" -->
-          <!--#set var="STICKER_SIZE"     value="36 × 8½ in (92 × 22 cm)" -->
-          <!--#set var="STICKER_URL"     value="http://r.ebay.com/X7LHBf" -->
-          <!--#include virtual="ssi/sticker.shtml" -->
-
-          <!--#set var="STICKER_TITLE"    value="lowerthanground Sticker" -->
-          <!--#set var="STICKER_GROUPS"   value="[\"1er\",\"2er\",\"3er\",\"4er\",\"5er\",\"7er\"]" -->
-          <!--#set var="STICKER_IMG"      value="img/sticker-lowerthanground.jpg" -->
-          <!--#set var="STICKER_IMG_ALT"  value="bmw windshield sticker stance static bagged dapper illest canibeat hoonigan" -->
-          <!--#set var="STICKER_DOLLARS"  value="19" -->
-          <!--#set var="STICKER_CENTS"    value="99" -->
-          <!--#set var="STICKER_SIZE"     value="36 × 7½ in (92 × 19 cm)" -->
-          <!--#set var="STICKER_URL"     value="http://r.ebay.com/IOdlIH" -->
           <!--#include virtual="ssi/sticker.shtml" -->
 
           <!--#set var="STICKER_TITLE"    value="e12 Sticker" -->
