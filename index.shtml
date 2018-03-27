@@ -28,7 +28,7 @@
 
 
           <!--#set var="STICKER_TITLE"    value="#bimmer4life Sticker" -->
-          <!--#set var="STICKER_GROUPS"   value="[\"1er\",\"2er\",\"3er\",\"4er\",\"5er\",\"7er\"]" -->
+          <!--#set var="STICKER_GROUPS"   value="[\"1er\",\"2er\",\"3er\",\"4er\",\"5er\",\"6er\",\"7er\"]" -->
           <!--#set var="STICKER_IMG"      value="img/sticker-bimmer4life.jpg" -->
           <!--#set var="STICKER_IMG_ALT"  value="BMW windshield sticker stance static bagged dapper illest canibeat hoonigan" -->
           <!--#set var="STICKER_DOLLARS"  value="19" -->
@@ -38,7 +38,7 @@
           <!--#include virtual="ssi/sticker2.shtml" -->
 
           <!--#set var="STICKER_TITLE"    value="lowerthanground Sticker" -->
-          <!--#set var="STICKER_GROUPS"   value="[\"1er\",\"2er\",\"3er\",\"4er\",\"5er\",\"7er\"]" -->
+          <!--#set var="STICKER_GROUPS"   value="[\"1er\",\"2er\",\"3er\",\"4er\",\"5er\",\"6er\",\"7er\"]" -->
           <!--#set var="STICKER_IMG"      value="img/sticker-lowerthanground.jpg" -->
           <!--#set var="STICKER_IMG_ALT"  value="bmw windshield sticker stance static bagged dapper illest canibeat hoonigan" -->
           <!--#set var="STICKER_DOLLARS"  value="19" -->
@@ -67,6 +67,7 @@
         </div>
         <div id="grid" class="row my-shuffle-container">
           <!--#set var="COLUMNS" value="3" -->
+
           <!--#set var="COLOR_OPTIONS" value="<span class=\"color-dot white\"></span><span class=\"color-dot lilac\"></span><span class=\"color-dot yellow\"></span><span class=\"color-dot red\"></span><span class=\"color-dot blue\"></span><span class=\"color-dot black\"></span><span class=\"color-dot mint\"></span><span class=\"color-dot orange\"></span><span class=\"color-dot pink\"></span>" -->
 
           <!--#set var="STICKER_TITLE"    value="1series Sticker" -->
@@ -138,6 +139,20 @@
           <!--#set var="STICKER_SIZE"     value="8½ × 3 in (22 × 7.6 cm)" -->
           <!--#set var="STICKER_URL"     value="http://r.ebay.com/17wX1H" -->
           <!--#include virtual="ssi/sticker.shtml" -->
+
+          <!--#set var="COLOR_OPTIONS" value="<span class=\"color-dot lilac\"></span><span class=\"color-dot yellow\"></span><span class=\"color-dot red\"></span><span class=\"color-dot blue\"></span><span class=\"color-dot mint\"></span><span class=\"color-dot orange\"></span><span class=\"color-dot pink\"></span>" -->
+
+          <!--#set var="STICKER_TITLE"    value="touring Sticker" -->
+          <!--#set var="STICKER_GROUPS"   value="[\"1er\",\"2er\",\"3er\",\"4er\",\"5er\",\"6er\",\"7er\"]" -->
+          <!--#set var="STICKER_IMG"      value="img/sticker-touring.jpg" -->
+          <!--#set var="STICKER_IMG_ALT"  value="bmw touring wagon window sticker stance motorsport drift decal" -->
+          <!--#set var="STICKER_DOLLARS"  value="9" -->
+          <!--#set var="STICKER_CENTS"    value="99" -->
+          <!--#set var="STICKER_SIZE"     value="8 × 3½ in (20 × 9 cm)" -->
+          <!--#set var="STICKER_URL"     value="http://r.ebay.com/k9wI4o" -->
+          <!--#include virtual="ssi/sticker.shtml" -->
+
+          <!--#set var="COLOR_OPTIONS" value="<span class=\"color-dot white\"></span><span class=\"color-dot lilac\"></span><span class=\"color-dot yellow\"></span><span class=\"color-dot red\"></span><span class=\"color-dot blue\"></span><span class=\"color-dot black\"></span><span class=\"color-dot mint\"></span><span class=\"color-dot orange\"></span><span class=\"color-dot pink\"></span>" -->
 
           <!--#set var="STICKER_TITLE"    value="e12 Sticker" -->
           <!--#set var="STICKER_GROUPS"   value="[\"5er\"]" -->
