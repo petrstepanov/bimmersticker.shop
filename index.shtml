@@ -291,7 +291,7 @@
           <!--#set var="STICKER_DOLLARS"  value="4" -->
           <!--#set var="STICKER_CENTS"    value="99" -->
           <!--#set var="STICKER_SIZE"     value="6¼ × 3½ in (16 × 9 cm)" -->
-          <!--#set var="STICKER_URL"     value="http://r.ebay.com/MSGriE" -->
+          <!--#set var="STICKER_URL"     value="http://r.ebay.com/RVrMz5" -->
           <!--#include virtual="ssi/sticker.shtml" -->
 
           <!--#set var="STICKER_TITLE"    value="e91 Sticker" -->
