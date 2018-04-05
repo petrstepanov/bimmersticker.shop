@@ -30,21 +30,46 @@
           <!--#set var="STICKER_TITLE"    value="#bimmer4life Sticker" -->
           <!--#set var="STICKER_GROUPS"   value="[\"1er\",\"2er\",\"3er\",\"4er\",\"5er\",\"6er\",\"7er\"]" -->
           <!--#set var="STICKER_IMG"      value="img/sticker-bimmer4life.jpg" -->
-          <!--#set var="STICKER_IMG_ALT"  value="BMW windshield sticker stance static bagged dapper illest canibeat hoonigan" -->
+          <!--#set var="STICKER_IMG_ALT"  value="BMW bimmer4life window windshield banner vinyl sticker stance drift decal" -->
           <!--#set var="STICKER_DOLLARS"  value="19" -->
           <!--#set var="STICKER_CENTS"    value="99" -->
           <!--#set var="STICKER_SIZE"     value="36 × 8½ in (92 × 22 cm)" -->
-          <!--#set var="STICKER_URL"     value="http://r.ebay.com/X7LHBf" -->
+          <!--#set var="STICKER_URL"     value="https://www.ebay.com/itm/192488242165" -->
           <!--#include virtual="ssi/sticker2.shtml" -->
 
           <!--#set var="STICKER_TITLE"    value="lowerthanground Sticker" -->
           <!--#set var="STICKER_GROUPS"   value="[\"1er\",\"2er\",\"3er\",\"4er\",\"5er\",\"6er\",\"7er\"]" -->
           <!--#set var="STICKER_IMG"      value="img/sticker-lowerthanground.jpg" -->
-          <!--#set var="STICKER_IMG_ALT"  value="bmw windshield sticker stance static bagged dapper illest canibeat hoonigan" -->
+          <!--#set var="STICKER_IMG_ALT"  value="lower than ground windshield sticker banner stance static bagged dapper illest" -->
           <!--#set var="STICKER_DOLLARS"  value="19" -->
           <!--#set var="STICKER_CENTS"    value="99" -->
           <!--#set var="STICKER_SIZE"     value="36 × 7½ in (92 × 19 cm)" -->
-          <!--#set var="STICKER_URL"     value="http://r.ebay.com/IOdlIH" -->
+          <!--#set var="STICKER_URL"     value="https://www.ebay.com/itm/192489357995" -->
+          <!--#include virtual="ssi/sticker2.shtml" -->
+        </div>
+        <div class="row">
+          <!--#set var="COLOR_OPTIONS" value="<span class=\"color-dot white\"></span><span class=\"color-dot lilac\"></span><span class=\"color-dot yellow\"></span><span class=\"color-dot red\"></span><span class=\"color-dot blue\"></span><span class=\"color-dot black\"></span><span class=\"color-dot mint\"></span><span class=\"color-dot orange\"></span><span class=\"color-dot pink\"></span>" -->
+
+          <!--#set var="STICKER_TITLE"    value="Daily Driven Sticker" -->
+          <!--#set var="STICKER_GROUPS"   value="[\"1er\",\"2er\",\"3er\",\"4er\",\"5er\",\"6er\",\"7er\"]" -->
+          <!--#set var="STICKER_IMG"      value="img/sticker-dailydriven.jpg" -->
+          <!--#set var="STICKER_IMG_ALT"  value="daily driven sticker decal stance lowered drift JDM canibeat illest fatlace" -->
+          <!--#set var="STICKER_DOLLARS"  value="12" -->
+          <!--#set var="STICKER_CENTS"    value="99" -->
+          <!--#set var="STICKER_SIZE"     value="8 × 3½ in (20 × 9 cm)" -->
+          <!--#set var="STICKER_URL"     value="https://www.ebay.com/itm/192501429626" -->
+          <!--#include virtual="ssi/sticker2.shtml" -->
+
+          <!--#set var="COLOR_OPTIONS" value="<span class=\"color-dot lilac\"></span><span class=\"color-dot yellow\"></span><span class=\"color-dot red\"></span><span class=\"color-dot blue\"></span><span class=\"color-dot mint\"></span><span class=\"color-dot orange\"></span><span class=\"color-dot pink\"></span>" -->
+
+          <!--#set var="STICKER_TITLE"    value="touring Sticker" -->
+          <!--#set var="STICKER_GROUPS"   value="[\"1er\",\"2er\",\"3er\",\"4er\",\"5er\",\"6er\",\"7er\"]" -->
+          <!--#set var="STICKER_IMG"      value="img/sticker-touring2.jpg" -->
+          <!--#set var="STICKER_IMG_ALT"  value="bmw touring wagon window sticker stance motorsport drift decal" -->
+          <!--#set var="STICKER_DOLLARS"  value="9" -->
+          <!--#set var="STICKER_CENTS"    value="99" -->
+          <!--#set var="STICKER_SIZE"     value="8 × 3½ in (20 × 9 cm)" -->
+          <!--#set var="STICKER_URL"     value="https://www.ebay.com/itm/192494164236" -->
           <!--#include virtual="ssi/sticker2.shtml" -->
         </div>
         <div class="row justify-content-center">
@@ -77,7 +102,7 @@
           <!--#set var="STICKER_DOLLARS"  value="6" -->
           <!--#set var="STICKER_CENTS"    value="99" -->
           <!--#set var="STICKER_SIZE"     value="8½ × 3 in (22 × 7.6 cm)" -->
-          <!--#set var="STICKER_URL"     value="http://r.ebay.com/z5Wr0C" -->
+          <!--#set var="STICKER_URL"     value="https://www.ebay.com/itm/192489081331" -->
           <!--#include virtual="ssi/sticker.shtml" -->
 
           <!--#set var="STICKER_TITLE"    value="2series Sticker" -->
@@ -87,7 +112,7 @@
           <!--#set var="STICKER_DOLLARS"  value="6" -->
           <!--#set var="STICKER_CENTS"    value="99" -->
           <!--#set var="STICKER_SIZE"     value="8½ × 3 in (22 × 7.6 cm)" -->
-          <!--#set var="STICKER_URL"     value="http://r.ebay.com/g9P7xa" -->
+          <!--#set var="STICKER_URL"     value="https://www.ebay.com/itm/192489131318" -->
           <!--#include virtual="ssi/sticker.shtml" -->
 
           <!--#set var="STICKER_TITLE"    value="3series Sticker" -->
@@ -97,7 +122,7 @@
           <!--#set var="STICKER_DOLLARS"  value="6" -->
           <!--#set var="STICKER_CENTS"    value="99" -->
           <!--#set var="STICKER_SIZE"     value="8½ × 3 in (22 × 7.6 cm)" -->
-          <!--#set var="STICKER_URL"     value="http://r.ebay.com/PjQ7DM" -->
+          <!--#set var="STICKER_URL"     value="https://www.ebay.com/itm/192488974223" -->
           <!--#include virtual="ssi/sticker.shtml" -->
 
           <!--#set var="STICKER_TITLE"    value="4series Sticker" -->
@@ -107,7 +132,7 @@
           <!--#set var="STICKER_DOLLARS"  value="6" -->
           <!--#set var="STICKER_CENTS"    value="99" -->
           <!--#set var="STICKER_SIZE"     value="8½ × 3 in (22 × 7.6 cm)" -->
-          <!--#set var="STICKER_URL"     value="http://r.ebay.com/SWIe48" -->
+          <!--#set var="STICKER_URL"     value="https://www.ebay.com/itm/192489132139" -->
           <!--#include virtual="ssi/sticker.shtml" -->
 
           <!--#set var="STICKER_TITLE"    value="5series Sticker" -->
@@ -117,7 +142,7 @@
           <!--#set var="STICKER_DOLLARS"  value="6" -->
           <!--#set var="STICKER_CENTS"    value="99" -->
           <!--#set var="STICKER_SIZE"     value="8½ × 3 in (22 × 7.6 cm)" -->
-          <!--#set var="STICKER_URL"     value="http://r.ebay.com/DVITE1" -->
+          <!--#set var="STICKER_URL"     value="https://www.ebay.com/itm/192489165301" -->
           <!--#include virtual="ssi/sticker.shtml" -->
 
           <!--#set var="STICKER_TITLE"    value="6series Sticker" -->
@@ -127,7 +152,7 @@
           <!--#set var="STICKER_DOLLARS"  value="6" -->
           <!--#set var="STICKER_CENTS"    value="99" -->
           <!--#set var="STICKER_SIZE"     value="8½ × 3 in (22 × 7.6 cm)" -->
-          <!--#set var="STICKER_URL"     value="http://r.ebay.com/o2JCnp" -->
+          <!--#set var="STICKER_URL"     value="https://www.ebay.com/itm/192492348777" -->
           <!--#include virtual="ssi/sticker.shtml" -->
 
           <!--#set var="STICKER_TITLE"    value="7series Sticker" -->
@@ -137,19 +162,7 @@
           <!--#set var="STICKER_DOLLARS"  value="6" -->
           <!--#set var="STICKER_CENTS"    value="99" -->
           <!--#set var="STICKER_SIZE"     value="8½ × 3 in (22 × 7.6 cm)" -->
-          <!--#set var="STICKER_URL"     value="http://r.ebay.com/17wX1H" -->
-          <!--#include virtual="ssi/sticker.shtml" -->
-
-          <!--#set var="COLOR_OPTIONS" value="<span class=\"color-dot lilac\"></span><span class=\"color-dot yellow\"></span><span class=\"color-dot red\"></span><span class=\"color-dot blue\"></span><span class=\"color-dot mint\"></span><span class=\"color-dot orange\"></span><span class=\"color-dot pink\"></span>" -->
-
-          <!--#set var="STICKER_TITLE"    value="touring Sticker" -->
-          <!--#set var="STICKER_GROUPS"   value="[\"1er\",\"2er\",\"3er\",\"4er\",\"5er\",\"6er\",\"7er\"]" -->
-          <!--#set var="STICKER_IMG"      value="img/sticker-touring.jpg" -->
-          <!--#set var="STICKER_IMG_ALT"  value="bmw touring wagon window sticker stance motorsport drift decal" -->
-          <!--#set var="STICKER_DOLLARS"  value="9" -->
-          <!--#set var="STICKER_CENTS"    value="99" -->
-          <!--#set var="STICKER_SIZE"     value="8 × 3½ in (20 × 9 cm)" -->
-          <!--#set var="STICKER_URL"     value="http://r.ebay.com/k9wI4o" -->
+          <!--#set var="STICKER_URL"     value="https://www.ebay.com/itm/192489172387" -->
           <!--#include virtual="ssi/sticker.shtml" -->
 
           <!--#set var="COLOR_OPTIONS" value="<span class=\"color-dot white\"></span><span class=\"color-dot lilac\"></span><span class=\"color-dot yellow\"></span><span class=\"color-dot red\"></span><span class=\"color-dot blue\"></span><span class=\"color-dot black\"></span><span class=\"color-dot mint\"></span><span class=\"color-dot orange\"></span><span class=\"color-dot pink\"></span>" -->
@@ -161,7 +174,7 @@
           <!--#set var="STICKER_DOLLARS"  value="4" -->
           <!--#set var="STICKER_CENTS"    value="99" -->
           <!--#set var="STICKER_SIZE"     value="6¼ × 3½ in (16 × 9 cm)" -->
-          <!--#set var="STICKER_URL"     value="http://r.ebay.com/33lFnr" -->
+          <!--#set var="STICKER_URL"     value="https://www.ebay.com/itm/192491650590" -->
           <!--#include virtual="ssi/sticker.shtml" -->
 
           <!--#set var="STICKER_TITLE"    value="e21 Sticker" -->
@@ -171,7 +184,7 @@
           <!--#set var="STICKER_DOLLARS"  value="4" -->
           <!--#set var="STICKER_CENTS"    value="99" -->
           <!--#set var="STICKER_SIZE"     value="6¼ × 3½ in (16 × 9 cm)" -->
-          <!--#set var="STICKER_URL"     value="http://r.ebay.com/cF3ALV" -->
+          <!--#set var="STICKER_URL"     value="https://www.ebay.com/itm/192489211685" -->
           <!--#include virtual="ssi/sticker.shtml" -->
 
           <!--#set var="STICKER_TITLE"    value="e23 Sticker" -->
@@ -181,7 +194,7 @@
           <!--#set var="STICKER_DOLLARS"  value="4" -->
           <!--#set var="STICKER_CENTS"    value="99" -->
           <!--#set var="STICKER_SIZE"     value="6¼ × 3½ in (16 × 9 cm)" -->
-          <!--#set var="STICKER_URL"     value="http://r.ebay.com/oAaKN2" -->
+          <!--#set var="STICKER_URL"     value="https://www.ebay.com/itm/192491664353" -->
           <!--#include virtual="ssi/sticker.shtml" -->
 
           <!--#set var="STICKER_TITLE"    value="e28 Sticker" -->
@@ -191,7 +204,7 @@
           <!--#set var="STICKER_DOLLARS"  value="4" -->
           <!--#set var="STICKER_CENTS"    value="99" -->
           <!--#set var="STICKER_SIZE"     value="6¼ × 3½ in (16 × 9 cm)" -->
-          <!--#set var="STICKER_URL"     value="http://r.ebay.com/MvaM3u" -->
+          <!--#set var="STICKER_URL"     value="https://www.ebay.com/itm/192490056915" -->
           <!--#include virtual="ssi/sticker.shtml" -->
 
           <!--#set var="STICKER_TITLE"    value="e30 Sticker" -->
@@ -201,7 +214,7 @@
           <!--#set var="STICKER_DOLLARS"  value="4" -->
           <!--#set var="STICKER_CENTS"    value="99" -->
           <!--#set var="STICKER_SIZE"     value="6¼ × 3½ in (16 × 9 cm)" -->
-          <!--#set var="STICKER_URL"     value="http://r.ebay.com/cz49k7" -->
+          <!--#set var="STICKER_URL"     value="https://www.ebay.com/itm/192490027852" -->
           <!--#include virtual="ssi/sticker.shtml" -->
 
           <!--#set var="STICKER_TITLE"    value="e32 Sticker" -->
@@ -211,7 +224,7 @@
           <!--#set var="STICKER_DOLLARS"  value="4" -->
           <!--#set var="STICKER_CENTS"    value="99" -->
           <!--#set var="STICKER_SIZE"     value="6¼ × 3½ in (16 × 9 cm)" -->
-          <!--#set var="STICKER_URL"     value="http://r.ebay.com/dTig0O" -->
+          <!--#set var="STICKER_URL"     value="https://www.ebay.com/itm/192491586587" -->
           <!--#include virtual="ssi/sticker.shtml" -->
 
           <!--#set var="STICKER_TITLE"    value="e34 Sticker" -->
@@ -221,7 +234,7 @@
           <!--#set var="STICKER_DOLLARS"  value="4" -->
           <!--#set var="STICKER_CENTS"    value="99" -->
           <!--#set var="STICKER_SIZE"     value="6¼ × 3½ in (16 × 9 cm)" -->
-          <!--#set var="STICKER_URL"     value="http://r.ebay.com/DJhYVz" -->
+          <!--#set var="STICKER_URL"     value="https://www.ebay.com/itm/192489195143" -->
           <!--#include virtual="ssi/sticker.shtml" -->
 
           <!--#set var="STICKER_TITLE"    value="e36 Sticker" -->
@@ -231,7 +244,7 @@
           <!--#set var="STICKER_DOLLARS"  value="4" -->
           <!--#set var="STICKER_CENTS"    value="99" -->
           <!--#set var="STICKER_SIZE"     value="6¼ × 3½ in (16 × 9 cm)" -->
-          <!--#set var="STICKER_URL"     value="http://r.ebay.com/xwScAB" -->
+          <!--#set var="STICKER_URL"     value="https://www.ebay.com/itm/192418376937" -->
           <!--#include virtual="ssi/sticker.shtml" -->
 
           <!--#set var="STICKER_TITLE"    value="e38 Sticker" -->
@@ -241,7 +254,7 @@
           <!--#set var="STICKER_DOLLARS"  value="4" -->
           <!--#set var="STICKER_CENTS"    value="99" -->
           <!--#set var="STICKER_SIZE"     value="6¼ × 3½ in (16 × 9 cm)" -->
-          <!--#set var="STICKER_URL"     value="http://r.ebay.com/ug74Uj" -->
+          <!--#set var="STICKER_URL"     value="https://www.ebay.com/itm/192491807481" -->
           <!--#include virtual="ssi/sticker.shtml" -->
 
           <!--#set var="STICKER_TITLE"    value="e39 Sticker" -->
@@ -251,7 +264,7 @@
           <!--#set var="STICKER_DOLLARS"  value="4" -->
           <!--#set var="STICKER_CENTS"    value="99" -->
           <!--#set var="STICKER_SIZE"     value="6¼ × 3½ in (16 × 9 cm)" -->
-          <!--#set var="STICKER_URL"     value="http://r.ebay.com/SIJpzz" -->
+          <!--#set var="STICKER_URL"     value="https://www.ebay.com/itm/192431727173" -->
           <!--#include virtual="ssi/sticker.shtml" -->
 
           <!--#set var="STICKER_TITLE"    value="e46 Sticker" -->
@@ -261,7 +274,7 @@
           <!--#set var="STICKER_DOLLARS"  value="4" -->
           <!--#set var="STICKER_CENTS"    value="99" -->
           <!--#set var="STICKER_SIZE"     value="6¼ × 3½ in (16 × 9 cm)" -->
-          <!--#set var="STICKER_URL"     value="http://r.ebay.com/FEAAK1" -->
+          <!--#set var="STICKER_URL"     value="https://www.ebay.com/itm/192431649657" -->
           <!--#include virtual="ssi/sticker.shtml" -->
 
           <!--#set var="STICKER_TITLE"    value="e60 Sticker" -->
@@ -271,7 +284,7 @@
           <!--#set var="STICKER_DOLLARS"  value="4" -->
           <!--#set var="STICKER_CENTS"    value="99" -->
           <!--#set var="STICKER_SIZE"     value="6¼ × 3½ in (16 × 9 cm)" -->
-          <!--#set var="STICKER_URL"     value="http://r.ebay.com/Xf1Vvr" -->
+          <!--#set var="STICKER_URL"     value="https://www.ebay.com/itm/192489246637" -->
           <!--#include virtual="ssi/sticker.shtml" -->
 
           <!--#set var="STICKER_TITLE"    value="e61 Sticker" -->
@@ -281,7 +294,7 @@
           <!--#set var="STICKER_DOLLARS"  value="4" -->
           <!--#set var="STICKER_CENTS"    value="99" -->
           <!--#set var="STICKER_SIZE"     value="6¼ × 3½ in (16 × 9 cm)" -->
-          <!--#set var="STICKER_URL"     value="http://r.ebay.com/eM02LU" -->
+          <!--#set var="STICKER_URL"     value="https://www.ebay.com/itm/192491854370" -->
           <!--#include virtual="ssi/sticker.shtml" -->
 
           <!--#set var="STICKER_TITLE"    value="e90 Sticker" -->
@@ -291,7 +304,7 @@
           <!--#set var="STICKER_DOLLARS"  value="4" -->
           <!--#set var="STICKER_CENTS"    value="99" -->
           <!--#set var="STICKER_SIZE"     value="6¼ × 3½ in (16 × 9 cm)" -->
-          <!--#set var="STICKER_URL"     value="http://r.ebay.com/RVrMz5" -->
+          <!--#set var="STICKER_URL"     value="https://www.ebay.com/itm/192500392494" -->
           <!--#include virtual="ssi/sticker.shtml" -->
 
           <!--#set var="STICKER_TITLE"    value="e91 Sticker" -->
@@ -301,7 +314,7 @@
           <!--#set var="STICKER_DOLLARS"  value="4" -->
           <!--#set var="STICKER_CENTS"    value="99" -->
           <!--#set var="STICKER_SIZE"     value="6¼ × 3½ in (16 × 9 cm)" -->
-          <!--#set var="STICKER_URL"     value="http://r.ebay.com/4K3zxG" -->
+          <!--#set var="STICKER_URL"     value="https://www.ebay.com/itm/192491778154" -->
           <!--#include virtual="ssi/sticker.shtml" -->
 
           <!--#set var="STICKER_TITLE"    value="e92 Sticker" -->
@@ -311,7 +324,7 @@
           <!--#set var="STICKER_DOLLARS"  value="4" -->
           <!--#set var="STICKER_CENTS"    value="99" -->
           <!--#set var="STICKER_SIZE"     value="6¼ × 3½ in (16 × 9 cm)" -->
-          <!--#set var="STICKER_URL"     value="http://r.ebay.com/6Bqvfl" -->
+          <!--#set var="STICKER_URL"     value="https://www.ebay.com/itm/192489119432" -->
           <!--#include virtual="ssi/sticker.shtml" -->
 
           <!--#set var="STICKER_TITLE"    value="f30 Sticker" -->
@@ -321,7 +334,7 @@
           <!--#set var="STICKER_DOLLARS"  value="4" -->
           <!--#set var="STICKER_CENTS"    value="99" -->
           <!--#set var="STICKER_SIZE"     value="6¼ × 3½ in (16 × 9 cm)" -->
-          <!--#set var="STICKER_URL"     value="http://r.ebay.com/6w9viN" -->
+          <!--#set var="STICKER_URL"     value="https://www.ebay.com/itm/192491787209" -->
           <!--#include virtual="ssi/sticker.shtml" -->
 
           <!-- <div class="col-xs-1 col-sm-1 col-md-1 my-sizer-element"></div> -->
