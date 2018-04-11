@@ -54,9 +54,9 @@
           <!--#set var="STICKER_GROUPS"   value="[\"1er\",\"2er\",\"3er\",\"4er\",\"5er\",\"6er\",\"7er\"]" -->
           <!--#set var="STICKER_IMG"      value="img/sticker-dailydriven.jpg" -->
           <!--#set var="STICKER_IMG_ALT"  value="daily driven sticker decal stance lowered drift JDM canibeat illest fatlace" -->
-          <!--#set var="STICKER_DOLLARS"  value="12" -->
+          <!--#set var="STICKER_DOLLARS"  value="9" -->
           <!--#set var="STICKER_CENTS"    value="99" -->
-          <!--#set var="STICKER_SIZE"     value="8 × 3½ in (20 × 9 cm)" -->
+          <!--#set var="STICKER_SIZE"     value="8½ × 5½ in (21 × 14 cm)" -->
           <!--#set var="STICKER_URL"     value="https://www.ebay.com/itm/192501429626" -->
           <!--#include virtual="ssi/sticker2.shtml" -->
 
