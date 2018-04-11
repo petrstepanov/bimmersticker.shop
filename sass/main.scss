@@ -211,7 +211,7 @@ $color-dot-size: 0.5rem;
   width: $color-dot-size;
   height: $color-dot-size;
   border-radius: $color-dot-size;
-  // margin: 0 $color-dot-size*0.4;
+  margin: 0;
 
   &.lilac {
     background-color: #b195c6;
