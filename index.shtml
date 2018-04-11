@@ -24,8 +24,9 @@
         </div>
         <div class="row">
           <!--#set var="COLUMNS" value="2" -->
-          <!--#set var="COLOR_OPTIONS" value="<span class=\"color-dot white\"></span><span class=\"color-dot mint\"></span><span class=\"color-dot pink\"></span>" -->
-
+          <!--#set var="COLOR_OPTIONS" value="<span data-toggle=\"tooltip\" title=\"White\"><span class=\"color-dot white\"></span></span>
+                                              <span data-toggle=\"tooltip\" title=\"Mint\"><span class=\"color-dot mint\"></span></span>
+                                              <span data-toggle=\"tooltip\" title=\"Pink\"><span class=\"color-dot pink\"></span></span>" -->
 
           <!--#set var="STICKER_TITLE"    value="#bimmer4life Sticker" -->
           <!--#set var="STICKER_GROUPS"   value="[\"1er\",\"2er\",\"3er\",\"4er\",\"5er\",\"6er\",\"7er\"]" -->
@@ -48,7 +49,15 @@
           <!--#include virtual="ssi/sticker2.shtml" -->
         </div>
         <div class="row">
-          <!--#set var="COLOR_OPTIONS" value="<span class=\"color-dot white\"></span><span class=\"color-dot lilac\"></span><span class=\"color-dot yellow\"></span><span class=\"color-dot red\"></span><span class=\"color-dot blue\"></span><span class=\"color-dot black\"></span><span class=\"color-dot mint\"></span><span class=\"color-dot orange\"></span><span class=\"color-dot pink\"></span>" -->
+          <!--#set var="COLOR_OPTIONS" value="<span data-toggle=\"tooltip\" title=\"White\"><span class=\"color-dot white\"></span></span>
+                                              <span data-toggle=\"tooltip\" title=\"Lilac\"><span class=\"color-dot lilac\"></span></span>
+                                              <span data-toggle=\"tooltip\" title=\"Yellow\"><span class=\"color-dot yellow\"></span></span>
+                                              <span data-toggle=\"tooltip\" title=\"Red\"><span class=\"color-dot red\"></span></span>
+                                              <span data-toggle=\"tooltip\" title=\"Blue\"><span class=\"color-dot blue\"></span></span>
+                                              <span data-toggle=\"tooltip\" title=\"Black\"><span class=\"color-dot black\"></span></span>
+                                              <span data-toggle=\"tooltip\" title=\"Mint\"><span class=\"color-dot mint\"></span></span>
+                                              <span data-toggle=\"tooltip\" title=\"Orange\"><span class=\"color-dot orange\"></span></span>
+                                              <span data-toggle=\"tooltip\" title=\"Pink\"><span class=\"color-dot pink\"></span></span>" -->
 
           <!--#set var="STICKER_TITLE"    value="Daily Driven Sticker" -->
           <!--#set var="STICKER_GROUPS"   value="[\"1er\",\"2er\",\"3er\",\"4er\",\"5er\",\"6er\",\"7er\"]" -->
@@ -60,7 +69,14 @@
           <!--#set var="STICKER_URL"     value="https://www.ebay.com/itm/192501429626" -->
           <!--#include virtual="ssi/sticker2.shtml" -->
 
-          <!--#set var="COLOR_OPTIONS" value="<span class=\"color-dot lilac\"></span><span class=\"color-dot yellow\"></span><span class=\"color-dot red\"></span><span class=\"color-dot blue\"></span><span class=\"color-dot mint\"></span><span class=\"color-dot orange\"></span><span class=\"color-dot pink\"></span>" -->
+          <!--#set var="COLOR_OPTIONS" value="<span data-toggle=\"tooltip\" title=\"Lilac\"><span class=\"color-dot lilac\"></span></span>
+                                              <span data-toggle=\"tooltip\" title=\"Yellow\"><span class=\"color-dot yellow\"></span></span>
+                                              <span data-toggle=\"tooltip\" title=\"Red\"><span class=\"color-dot red\"></span></span>
+                                              <span data-toggle=\"tooltip\" title=\"Blue\"><span class=\"color-dot blue\"></span></span>
+                                              <span data-toggle=\"tooltip\" title=\"Black\"><span class=\"color-dot black\"></span></span>
+                                              <span data-toggle=\"tooltip\" title=\"Mint\"><span class=\"color-dot mint\"></span></span>
+                                              <span data-toggle=\"tooltip\" title=\"Orange\"><span class=\"color-dot orange\"></span></span>
+                                              <span data-toggle=\"tooltip\" title=\"Pink\"><span class=\"color-dot pink\"></span></span>" -->
 
           <!--#set var="STICKER_TITLE"    value="touring Sticker" -->
           <!--#set var="STICKER_GROUPS"   value="[\"1er\",\"2er\",\"3er\",\"4er\",\"5er\",\"6er\",\"7er\"]" -->
@@ -93,7 +109,15 @@
         <div id="grid" class="row my-shuffle-container">
           <!--#set var="COLUMNS" value="3" -->
 
-          <!--#set var="COLOR_OPTIONS" value="<span class=\"color-dot white\"></span><span class=\"color-dot lilac\"></span><span class=\"color-dot yellow\"></span><span class=\"color-dot red\"></span><span class=\"color-dot blue\"></span><span class=\"color-dot black\"></span><span class=\"color-dot mint\"></span><span class=\"color-dot orange\"></span><span class=\"color-dot pink\"></span>" -->
+          <!--#set var="COLOR_OPTIONS" value="<span data-toggle=\"tooltip\" title=\"White\"><span class=\"color-dot white\"></span></span>
+                                              <span data-toggle=\"tooltip\" title=\"Lilac\"><span class=\"color-dot lilac\"></span></span>
+                                              <span data-toggle=\"tooltip\" title=\"Yellow\"><span class=\"color-dot yellow\"></span></span>
+                                              <span data-toggle=\"tooltip\" title=\"Red\"><span class=\"color-dot red\"></span></span>
+                                              <span data-toggle=\"tooltip\" title=\"Blue\"><span class=\"color-dot blue\"></span></span>
+                                              <span data-toggle=\"tooltip\" title=\"Black\"><span class=\"color-dot black\"></span></span>
+                                              <span data-toggle=\"tooltip\" title=\"Mint\"><span class=\"color-dot mint\"></span></span>
+                                              <span data-toggle=\"tooltip\" title=\"Orange\"><span class=\"color-dot orange\"></span></span>
+                                              <span data-toggle=\"tooltip\" title=\"Pink\"><span class=\"color-dot pink\"></span></span>" -->
 
           <!--#set var="STICKER_TITLE"    value="1series Sticker" -->
           <!--#set var="STICKER_GROUPS"   value="[\"1er\"]" -->
@@ -445,7 +469,7 @@
           </div>
         </div>
       </div>
-      <script src="js/compiled/bimmersticker.min.js?123456"></script>
+      <script src="js/compiled/bimmersticker.min.js?123457"></script>
       <!-- <script src="js/compiled/bimmersticker.js"></script> -->
     </body>
 </html>

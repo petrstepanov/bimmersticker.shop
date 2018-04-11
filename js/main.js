@@ -426,4 +426,7 @@ $(document).ready(function(){
   document.addEventListener('gesturestart', function (event) {
     event.preventDefault();
   });
+
+  // Bootstrap tooltips
+  $('[data-toggle="tooltip"]').tooltip()
 });
