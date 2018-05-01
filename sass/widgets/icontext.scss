@@ -1,0 +1,17 @@
+.widget-icontext {
+  img {
+    width: 100%;
+
+    @include media-breakpoint-up(md) {
+      width: 33%;
+    }
+  }
+
+  p {
+    font-size: $font-size-12;
+
+    @include media-breakpoint-up(md) {
+      font-size: $font-size-16;
+    }
+  }
+}

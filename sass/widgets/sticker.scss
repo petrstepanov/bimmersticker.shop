@@ -1,0 +1,126 @@
+.card-col figcaption {
+  display: none;
+}
+
+.widget-sticker {
+  @extend %my-card;
+  margin-bottom: 2rem;
+
+  .card-body {
+    padding: $card-padding;
+  }
+
+  .card-title {
+    font-family: $font-bold;
+    font-weight: normal;
+    font-size: $font-size-16;
+
+    .pricetag {
+      font-size: $font-size-21;
+      float: right;
+      bottom: 0.3rem;
+      position: relative;
+
+      sup {
+        font-size: 60%;
+        margin-left: 0.2rem;
+        border-bottom: 0.15rem solid #333333;
+      }
+    }
+  }
+
+  .card-text {
+    color: $gray-600;
+    margin-top: 1rem;
+    margin-bottom: 1.2rem;
+    font-size: $font-size-12;
+
+    dd{
+      margin-bottom: 0rem;
+    }
+    dt {
+      font-family: $font-bold;
+    }
+  }
+
+  .card-img-soon {
+    display: none;
+    margin-bottom: -3.375rem;
+    position: relative;
+    left: -0.625rem;
+    top: -5rem;
+    height: 3rem;
+    width: 10.25rem;
+  }
+
+  &.coming-soon {
+    .card-img-top {
+      opacity: 0.4;
+    }
+
+    .card-img-soon {
+      display: block;
+    }
+  }
+}
+
+$color-dot-size: 0.5rem;
+
+.color-dot {
+  display: inline-block;
+  width: $color-dot-size;
+  height: $color-dot-size;
+  border-radius: $color-dot-size;
+  margin: 0;
+
+  &.lilac {
+    background-color: #b195c6;
+  }
+  &.yellow {
+    background-color: #ffdb00;
+  }
+  &.red {
+    background-color: #e44145;
+  }
+  &.white {
+    background-color: #ffffff;
+    -webkit-box-shadow: inset 0 0 0 1px #e1e1e1, 0 0 0 1px #e1e1e1;
+    box-shadow: inset 0 0 0 1px #e1e1e1, 0 0 0 1px #e1e1e1;
+  }
+  &.blue {
+    background-color: #39b7ea;
+  }
+  &.mint {
+    background-color: #5ec4b7;
+  }
+  &.black {
+    background-color: #363433;
+  }
+  &.orange {
+    background-color: #ff8a47;
+  }
+  &.pink {
+    background-color: #f6a6bf;
+  }
+
+}
+
+[data-toggle=tooltip] {
+  margin-left: 0.2rem;
+}
+
+// .card-columns {
+//   column-count: 1;
+//   column-gap: 2rem;
+//
+//   .card {
+//     margin-bottom: 2rem;
+//   }
+//
+//   @include media-breakpoint-up(md) {
+//     column-count: 2;
+//   }
+//   @include media-breakpoint-up(lg) {
+//     column-count: 3;
+//   }
+// }

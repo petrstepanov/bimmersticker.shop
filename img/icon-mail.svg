@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128px" height="46px" viewBox="0 0 128 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-mail</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M47.5842889,-0.000259338481 C46.151876,-0.000259338481 44.722921,1.16071259 44.3918322,2.59312547 L37.9040479,30.6967721 C37.5738235,32.129185 38.4668124,33.290157 39.8992252,33.290157 L99.1226251,33.290157 C100.555038,33.290157 101.983993,32.129185 102.314217,30.6967721 L108.802002,2.59312547 C109.13309,1.16071259 108.240102,-0.000259338481 106.807689,-0.000259338481 L47.5842889,-0.000259338481 Z" id="path-1"></path>
+    </defs>
+    <g id="icon-mail" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(0.000000, 7.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Clip-2" fill="#188BC9" xlink:href="#path-1"></use>
+            <path d="M44.5891023,2.92213955 L72.7627704,20.3859928" id="Stroke-4" stroke="#FEFEFE" stroke-width="3" stroke-linecap="square" mask="url(#mask-2)"></path>
+            <path d="M38.2895977,30.2092158 L66.2964247,17.6572333" id="Stroke-5" stroke="#FEFEFE" stroke-width="3" stroke-linecap="square" mask="url(#mask-2)"></path>
+            <path d="M102.700027,30.2092158 L80.4885502,17.6572333" id="Stroke-6" stroke="#FEFEFE" stroke-width="3" stroke-linecap="square" mask="url(#mask-2)"></path>
+            <path d="M108.45371,2.92213955 L73.8544989,20.3859928" id="Stroke-7" stroke="#FEFEFE" stroke-width="3" stroke-linecap="square" mask="url(#mask-2)"></path>
+            <rect id="Rectangle-2" fill="#000000" x="0.716628166" y="4.65844649" width="30.9058153" height="1.7289232" rx="0.864461602"></rect>
+            <rect id="Rectangle-2-Copy" fill="#000000" x="7.89265594" y="15.128078" width="26.176138" height="1.7289232" rx="0.864461602"></rect>
+            <rect id="Rectangle-2-Copy-2" fill="#000000" x="7.89265594" y="25.8276503" width="20.0116062" height="1.7289232" rx="0.864461602"></rect>
+        </g>
+    </g>
+</svg>

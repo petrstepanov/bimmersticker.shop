@@ -57,13 +57,13 @@ $navbar-padding-y-bigger:  0.85rem;
 $navbar-padding-y-biggest:  1.2rem;
 
 .padded-multiline {
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
 .padded-multiline span {
   background-color: white;
   display: inline;
-  padding: 0.4rem 0.9rem;
+  padding: 0.3rem 0.9rem;
 
   /* Needs prefixing */
   box-decoration-break: clone;
