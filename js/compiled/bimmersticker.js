@@ -19289,11 +19289,9 @@ var navbarManipulator = (function () {
     // }
     var mdWidth = 768;
     return {
-      getNavbarHeight(){
+      navbarHeight: function(){
         // Calculate height of the non-opened navbar
-        var height = parseInt($('.navbar-bimmersticker').css("padding-top"))
-                   + parseInt($('.navbar-bimmersticker').css("padding-bottom"))
-                   + parseInt($('.navbar-bimmersticker .navbar-brand').height());
+        var height = parseInt($('.navbar-bimmersticker').css("padding-top")) + parseInt($('.navbar-bimmersticker').css("padding-bottom")) + parseInt($('.navbar-bimmersticker .navbar-brand').height());
         return height;
       },
       initAutoHide: function(){
@@ -19361,5 +19359,5 @@ $(document).ready(function(){
   });
 
   // Bootstrap tooltips
-  $('[data-toggle="tooltip"]').tooltip()
+  $('[data-toggle="tooltip"]').tooltip();
 });
