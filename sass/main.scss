@@ -107,6 +107,9 @@ body {
       @include media-breakpoint-only(sm) {
         padding-left: $logo-size-bigger + $logo-text-padding;
       }
+      @include media-breakpoint-up(md) {
+        padding-left: 0.5rem;
+      }
     }
 
     .nav-item {
@@ -115,6 +118,10 @@ body {
 
         &:last-child {
           margin-left: 0rem;
+
+          .nav-link {
+            padding-right: 0;
+          }
         }
       }
     }

@@ -6328,10 +6328,15 @@ body {
     .navbar-bimmersticker .navbar-nav .nav-link {
       padding-left: 5rem; } }
   @media (min-width: 768px) {
+    .navbar-bimmersticker .navbar-nav .nav-link {
+      padding-left: 0.5rem; } }
+  @media (min-width: 768px) {
     .navbar-bimmersticker .navbar-nav .nav-item {
       margin-left: 2rem; }
       .navbar-bimmersticker .navbar-nav .nav-item:last-child {
-        margin-left: 0rem; } }
+        margin-left: 0rem; }
+        .navbar-bimmersticker .navbar-nav .nav-item:last-child .nav-link {
+          padding-right: 0; } }
   .navbar-bimmersticker .nav-link {
     padding-top: 0.8rem;
     padding-bottom: 0.8rem; }

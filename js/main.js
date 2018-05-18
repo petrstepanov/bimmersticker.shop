@@ -282,7 +282,7 @@ var htmlHelper = (function () {
     return {
       smoothScrollToLink: function($target){
         var offset = $target.offset().top - 30;
-        if ($(window).width() < mdWidth){
+        if (window.outerWidth < mdWidth){
           var navbarHeight = navbarManipulator.getInstance().getNavbarHeight();
           offset -= navbarHeight;
         }
