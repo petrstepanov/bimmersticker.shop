@@ -24,6 +24,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-heart:before {
+  content: "\e90c";
+}
 .icon-mail-fill:before {
   content: "\e906";
 }

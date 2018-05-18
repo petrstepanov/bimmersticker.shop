@@ -19110,10 +19110,16 @@ var htmlHelper = (function () {
     var slow = 600;
     var normal = 400;
     var fast = 200;
+    var mdWidth = 768;
     return {
       smoothScrollToLink: function($target){
+        var offset = $target.offset().top - 30;
+        if ($(window).width() < mdWidth){
+          var navbarHeight = navbarManipulator.getInstance().getNavbarHeight();
+          offset -= navbarHeight;
+        }
         $('html, body').animate({
-          scrollTop: $target.offset().top - 30
+          scrollTop: offset
         }, slow);
       },
       showDialog: function($target){
@@ -19237,6 +19243,93 @@ var htmlHelper = (function () {
   };
 })();
 
+var backgroundGallery = (function () {
+  var instance;
+  function init() {
+    // Private methods and variables
+    // function privateMethod(){
+    //     console.log( "I am private" );
+    // }
+    return {
+      start: function($target){
+        $.each($('.js--gallery'), function(index, element){
+          var $gallery = $(this);
+          var $images = $gallery.find("img");
+          var n = $images.length;
+          var c = 0;
+          changeBackground = function(){
+            $gallery.css({
+              backgroundImage: "url("+ $images[++c%n].src +")"
+            });
+          };
+          changeBackground();
+          var interval = self.setInterval(function(){
+            changeBackground();
+          }, 2000);
+        });
+      }
+    };
+  }
+  return {
+    getInstance: function () {
+      if ( !instance ) {
+        instance = init();
+      }
+      return instance;
+    }
+  };
+})();
+
+var navbarManipulator = (function () {
+  var instance;
+  function init() {
+    // Private methods and variables
+    // function privateMethod(){
+    //     console.log( "I am private" );
+    // }
+    var mdWidth = 768;
+    return {
+      getNavbarHeight(){
+        // Calculate height of the non-opened navbar
+        var height = parseInt($('.navbar-bimmersticker').css("padding-top"))
+                   + parseInt($('.navbar-bimmersticker').css("padding-bottom"))
+                   + parseInt($('.navbar-bimmersticker .navbar-brand').height());
+        return height;
+      },
+      initAutoHide: function(){
+        $('.navbar-bimmersticker .nav-link').on('click', function(){
+            $('.navbar-toggler').click();
+        });
+      },
+      watchWindowResize: function(){
+        this.fixReleaseNavbar();
+        var that = this;
+        $(window).resize(function(){
+          that.fixReleaseNavbar();
+        });
+      },
+      fixReleaseNavbar: function(){
+        if ($(window).width() < mdWidth){
+          $('.navbar-bimmersticker').addClass('fixed-top');
+          $('body').css('margin-top', this.getNavbarHeight()+'px');
+        }
+        else {
+          $('.navbar-bimmersticker').removeClass('fixed-top');
+          $('body').css('margin-top', 0);
+        }
+      }
+    };
+  }
+  return {
+    getInstance: function () {
+      if ( !instance ) {
+        instance = init();
+      }
+      return instance;
+    }
+  };
+})();
+
 $(document).ready(function(){
   var myHtmlHelper = htmlHelper.getInstance();
   // Smooth link scrolling
@@ -19246,6 +19339,11 @@ $(document).ready(function(){
   // Init animateCss usage
   myHtmlHelper.initAnimateCss();
 
+  // Fix navbar for mobile
+  myNavbarManipulator = navbarManipulator.getInstance();
+  myNavbarManipulator.initAutoHide();
+  myNavbarManipulator.watchWindowResize();
+
   // Coming soon cards logic
   var myCardsManipulator = cardsManipulator.getInstance();
   myCardsManipulator.initComingSoonCards();
@@ -19253,6 +19351,9 @@ $(document).ready(function(){
   myCardsManipulator.initCardsFilter();
   // Check if special bmw mode was selected from adwords
   myCardsManipulator.initOnLoadFilter();
+
+  var myBackgroundGallery = backgroundGallery.getInstance();
+  myBackgroundGallery.start();
 
   // iOS10 prevent pinch zoom
   document.addEventListener('gesturestart', function (event) {

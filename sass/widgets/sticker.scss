@@ -29,17 +29,40 @@
     }
   }
 
-  .card-text {
+  p {
+    color: $gray-600;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    // font-size: $font-size-16;
+  }
+
+  .card-text, .card-description {
     color: $gray-600;
     margin-top: 1rem;
     margin-bottom: 1.2rem;
     font-size: $font-size-12;
 
-    dd{
+    dd {
       margin-bottom: 0rem;
     }
     dt {
       font-family: $font-bold;
+    }
+  }
+
+  .card-description {
+    display: flex;
+    flex-wrap: wrap;
+
+    dd {
+      flex-grow: 1;
+      text-align: right;
+    }
+
+    hr {
+      width: 100%;
+      margin: 0;
+      border-top: 0;
     }
   }
 

@@ -140,6 +140,16 @@ h2 {
     padding-top: $navbar-padding-y-biggest;
     padding-bottom: $navbar-padding-y-biggest;
   }
+
+  .nav-item.nav-separator {
+    border-bottom: 1px solid $gray-200;
+    padding-bottom: 0.75rem;
+    margin-bottom: 0.75rem;
+
+    @include media-breakpoint-up(md) {
+      border-bottom: 0;
+    }
+  }
 }
 
 @import "./../node_modules/bootstrap/scss/card";

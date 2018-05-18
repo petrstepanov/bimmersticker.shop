@@ -11,10 +11,19 @@
 
     <div class="collapse navbar-collapse" id="navbarsExample07">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#stickers"><span class="icon-sticker-fill d-inline d-md-none"></span><span class="pl-3">Browse Stickers</span></a>
+        <li class="nav-item d-none  d-md-inline">
+          <a class="nav-link" href="#stickers-featured"><span class="icon-favourite d-inline d-md-none"></span><span class="pl-3">Browse Stickers</span></a>
         </li>
-       <li class="nav-item">
+        <li class="nav-item d-md-none">
+          <a class="nav-link" href="#stickers-featured"><span class="icon-favourite d-inline d-md-none"></span><span class="pl-3">Featured Stickers</span></a>
+        </li>
+        <li class="nav-item d-md-none">
+          <a class="nav-link" href="#stickers-model"><span class="icon-heart d-inline d-md-none"></span><span class="pl-3">Model Stickers</span></a>
+        </li>
+        <li class="nav-item d-md-none nav-separator">
+          <a class="nav-link" href="#stickers-series-generations"><span class="icon-sticker-fill d-inline d-md-none"></span><span class="pl-3">Series and Generations</span></a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="#contact"><span class="icon-mail-fill d-inline d-md-none"></span><span class="pl-3">Contact Us</span></a>
         </li>
         <li class="nav-item">

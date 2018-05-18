@@ -8,15 +8,18 @@
           $<!--#echo encoding="none" var="STICKER_DOLLARS" --><sup><!--#echo encoding="none" var="STICKER_CENTS" --></sup>
         </span>
       </h5>
-      <dl class="card-text row">
-        <dt class="col-4">Material</dt>
-        <dd class="col-8 text-right">ORACAL 651 vinyl</dd>
-        <dt class="col-3">Size</dt>
-        <dd class="col-9 text-right"><!--#echo encoding="none" var="STICKER_SIZE" --></dd>
-          <dt class="col-3 mt-1">Colors</dt>
-          <dd class="col-9 mt-1 text-right">
-            <!--#echo encoding="none" var="COLOR_OPTIONS" -->
-          </dd>
+      <!--#if expr="${STICKER_TEXT}!=''" -->
+        <p><!--#echo encoding="none" var="STICKER_TEXT" --></p>
+      <!--#endif-->
+      <dl class="card-description">
+        <dt>Material</dt>
+        <dd>ORACAL 651 vinyl</dd>
+        <hr>
+        <dt>Size</dt>
+        <dd><!--#echo encoding="none" var="STICKER_SIZE" --></dd>
+        <hr>
+        <dt class="mt-1">Color</dt>
+        <dd class="mt-1"><!--#echo encoding="none" var="COLOR_OPTIONS" --></dd>
       </dl>
       <a href="<!--#echo encoding="none" var="STICKER_URL" -->" target="_blank" rel="nofollow" role="button" class="btn btn-primary"><span class="icon-external"></span> View on eBay</a>
     </div>

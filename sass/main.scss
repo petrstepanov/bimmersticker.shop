@@ -16,6 +16,21 @@ body {
   padding-left: 0;
 }
 
+// Gallery
+
+.js--gallery {
+  height: 320px;
+  transition: background-image 250ms;
+  background-position: center center;
+  background-size: cover;
+
+  img {
+    width: 1px;
+    height: 1px;
+    visibility: hidden;
+  }
+}
+
 // Cards extend
 
 %my-card {
@@ -36,6 +51,7 @@ body {
 
 .navbar-bimmersticker {
   @include box-shadow(0 0.375rem 1.6rem 0 rgba(0,0,0,0.28));
+  background-color: white;
 
   .navbar-brand {
     color: #333333;
