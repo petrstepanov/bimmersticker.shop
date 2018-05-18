@@ -19309,7 +19309,7 @@ var navbarManipulator = (function () {
         });
       },
       fixReleaseNavbar: function(){
-        if ($(window).width() < mdWidth){
+        if (window.outerWidth < mdWidth){
           $('.navbar-bimmersticker').addClass('fixed-top');
           $('body').css('margin-top', this.getNavbarHeight()+'px');
         }
