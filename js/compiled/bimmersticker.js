@@ -19289,7 +19289,7 @@ var navbarManipulator = (function () {
     // }
     var mdWidth = 768;
     return {
-      navbarHeight: function(){
+      getNavbarHeight: function(){
         // Calculate height of the non-opened navbar
         var height = parseInt($('.navbar-bimmersticker').css("padding-top")) + parseInt($('.navbar-bimmersticker').css("padding-bottom")) + parseInt($('.navbar-bimmersticker .navbar-brand').height());
         return height;
