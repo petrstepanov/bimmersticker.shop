@@ -115,7 +115,7 @@
           <!--#set var="STICKER_DOLLARS"  value="5" -->
           <!--#set var="STICKER_CENTS"    value="99" -->
           <!--#set var="STICKER_SIZE"     value="8¼ × 2¼ in (21 × 6 cm)" -->
-          <!--#set var="STICKER_URL"     value="http://www.ebay.com/itm/192541463438" -->
+          <!--#set var="STICKER_URL"     value="http://www.ebay.com/itm/192568856505" -->
           <!--#include virtual="ssi/widgets/sticker-big.shtml" -->
         </div>
         <div class="row justify-content-center">
@@ -129,7 +129,7 @@
           <!--#set var="STICKER_DOLLARS"  value="5" -->
           <!--#set var="STICKER_CENTS"    value="99" -->
           <!--#set var="STICKER_SIZE"     value="5½ × 2½ in (14 × 6.5 cm)" -->
-          <!--#set var="STICKER_URL"     value="http://www.ebay.com/itm/192540609075" -->
+          <!--#set var="STICKER_URL"     value="http://www.ebay.com/itm/192568855873" -->
           <!--#set var="COLOR_OPTIONS" value="<span data-toggle=\"tooltip\" title=\"Red\"><span class=\"color-dot red\"></span></span>
                                               <span data-toggle=\"tooltip\" title=\"Orange\"><span class=\"color-dot orange\"></span></span>" -->
 
