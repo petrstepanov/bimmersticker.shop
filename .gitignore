@@ -1,4 +1,5 @@
 /node_modules
 /js/bimmersticker.js
+/css
 .DS_Store
 .htaccess

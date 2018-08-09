@@ -20,7 +20,7 @@ var paths = {
           './node_modules/bootstrap/dist/js/bootstrap.bundle.js',
           './node_modules/shufflejs/dist/shuffle.js',
           './js/modules/background-gallery.js',
-          './js/main.js'],
+          './js/app.js'],
     srcWatch: './js/**/*.js',
     dest: './js'
   }

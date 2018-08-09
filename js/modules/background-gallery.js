@@ -11,7 +11,7 @@ var BackgroundGallery = function() {
 
   function _renderBackground() {
     var n = DOM.$images.length;
-    DOM.el.css({
+    DOM.$el.css({
       backgroundImage: "url(" + DOM.$images[++counter % n].src + ")"
     });
   }

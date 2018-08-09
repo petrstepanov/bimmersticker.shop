@@ -136,7 +136,7 @@
 
           <figure class="card-col col-xs-12 col-md-6 col-lg-6">
             <div class="card widget-sticker">
-              <div class="card-img-top js--gallery">
+              <div class="card-img-top background-gallery js--init-background-gallery">
                 <img src="img/sticker-328i.jpg" alt="BMW 328i instagram popover sticker">
                 <img src="img/sticker-535i.jpg" alt="BMW 535i instagram popover sticker">
                 <img src="img/sticker-740i.jpg" alt="BMW 740i instagram popover sticker">
@@ -167,7 +167,7 @@
             <figcaption><!--#echo encoding="none" var="STICKER_IMG_ALT" --></figcaption>
           </figure>
           <!--#set var="STICKER_TITLE"    value="BMW Modified sticker" -->
-          <!--#set var="STICKER_TEXT"     value="To be placed on every modified bimmer, really." -->
+          <!--#set var="STICKER_TEXT"     value="No matter if your car is ///M or not. This one should go on every modified bimmer really." -->
           <!--#set var="STICKER_DOLLARS"  value="8" -->
           <!--#set var="STICKER_CENTS"    value="99" -->
           <!--#set var="STICKER_SIZE"     value="11½ × 1½ in (29 × 4 cm)" -->
@@ -178,7 +178,7 @@
 
           <figure class="card-col col-xs-12 col-md-6 col-lg-6">
             <div class="card widget-sticker">
-              <div class="card-img-top js--gallery">
+              <div class="card-img-top background-gallery js--init-background-gallery">
                 <img src="img/sticker-modified-white.jpg" alt="BMW Modified sticker white">
                 <img src="img/sticker-modified-holographic-opal.jpg" alt="BMW Modified sticker holographic opal">
                 <img src="img/sticker-modified-holographic-blue.jpg" alt="BMW Modified sticker holographic blue">
@@ -549,6 +549,13 @@
             <div class="modal-body">
               <ul class="list-no-bullets">
                 <li class="mt-2">
+                  "<a rel="nofollow" target="_blank" href="https://www.flickr.com/photos/99731349@N07/15045114568/">22889</a>"
+                  by
+                  <a rel="nofollow" target="_blank" href="https://www.flickr.com/photos/99731349@N07/">Dylanlspangler</a>,
+                  used under <a rel="nofollow" target="_blank" class="external text" href="https://creativecommons.org/licenses/by-sa/2.0/">Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)</a>
+                  / Cropped, added sticker, reduced saturation
+                </li>
+                <li class="mt-2">
                   "<a rel="nofollow" target="_blank" href="https://www.flickr.com/photos/99731349@N07/17082359181/">15590</a>"
                   by
                   <a rel="nofollow" target="_blank" href="https://www.flickr.com/photos/99731349@N07/">Dylanlspangler</a>,
@@ -598,6 +605,6 @@
           </div>
         </div>
       </div>
-      <script src="js/compiled/bimmersticker.js?123456"></script>
+      <script src="js/bimmersticker.js?123456"></script>
     </body>
 </html>

@@ -1,0 +1,12 @@
+.background-gallery {
+  height: 320px;
+  // transition: background-image 250ms;
+  background-position: center center;
+  background-size: cover;
+
+  img {
+    width: 1px;
+    height: 1px;
+    visibility: hidden;
+  }
+}
