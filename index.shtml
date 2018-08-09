@@ -112,7 +112,7 @@
           <!--#set var="STICKER_GROUPS"   value="[\"1er\",\"2er\",\"3er\",\"4er\",\"5er\",\"6er\",\"7er\"]" -->
           <!--#set var="STICKER_IMG"      value="img/sticker-bimmer-not-beamer.jpg" -->
           <!--#set var="STICKER_IMG_ALT"  value="bmw bimmer not beamer window sticker stance motorsport drift decal" -->
-          <!--#set var="STICKER_DOLLARS"  value="5" -->
+          <!--#set var="STICKER_DOLLARS"  value="6" -->
           <!--#set var="STICKER_CENTS"    value="99" -->
           <!--#set var="STICKER_SIZE"     value="8¼ × 2¼ in (21 × 6 cm)" -->
           <!--#set var="STICKER_URL"     value="http://www.ebay.com/itm/192568856505" -->
