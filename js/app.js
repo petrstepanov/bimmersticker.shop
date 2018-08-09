@@ -411,43 +411,6 @@ var htmlHelper = (function () {
   };
 })();
 
-var backgroundGallery = (function () {
-  var instance;
-  function init() {
-    // Private methods and variables
-    // function privateMethod(){
-    //     console.log( "I am private" );
-    // }
-    return {
-      start: function($target){
-        $.each($('.js--gallery'), function(index, element){
-          var $gallery = $(this);
-          var $images = $gallery.find("img");
-          var n = $images.length;
-          var c = 0;
-          changeBackground = function(){
-            $gallery.css({
-              backgroundImage: "url("+ $images[++c%n].src +")"
-            });
-          };
-          changeBackground();
-          var interval = self.setInterval(function(){
-            changeBackground();
-          }, 2000);
-        });
-      }
-    };
-  }
-  return {
-    getInstance: function () {
-      if ( !instance ) {
-        instance = init();
-      }
-      return instance;
-    }
-  };
-})();
-
 var navbarManipulator = (function () {
   var instance;
   function init() {
@@ -518,8 +481,11 @@ $(document).ready(function(){
   // Check if special bmw mode was selected from adwords
   myCardsManipulator.initOnLoadFilter();
 
-  var myBackgroundGallery = backgroundGallery.getInstance();
-  myBackgroundGallery.start();
+  // Initialize all image galleries on a page (wall cards, campaign galleries)
+  $('.js--init-background-gallery').each(function(){
+    var bg = BackgroundGallery();
+    bg.init(this);
+  });
 
   // iOS10 prevent pinch zoom
   document.addEventListener('gesturestart', function (event) {

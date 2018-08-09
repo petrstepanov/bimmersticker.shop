@@ -105,8 +105,8 @@
           <!--#include virtual="ssi/widgets/sticker-big.shtml" -->
 
           <!--#set var="COLOR_OPTIONS" value="<span data-toggle=\"tooltip\" title=\"White\"><span class=\"color-dot white\"></span></span>
-                                              <span data-toggle=\"tooltip\" title=\"Holographic Gold\"><span class=\"color-dot yellow\"></span></span>
-                                              <span data-toggle=\"tooltip\" title=\"Holographic Blue\"><span class=\"color-dot blue\"></span></span>" -->
+                                              <span data-toggle=\"tooltip\" title=\"Holographic Opal\"><span class=\"color-dot holo-opal\"></span></span>
+                                              <span data-toggle=\"tooltip\" title=\"Holographic Blue\"><span class=\"color-dot holo-blue\"></span></span>" -->
 
           <!--#set var="STICKER_TITLE"    value="bimmer not beamer" -->
           <!--#set var="STICKER_GROUPS"   value="[\"1er\",\"2er\",\"3er\",\"4er\",\"5er\",\"6er\",\"7er\"]" -->
@@ -120,16 +120,17 @@
         </div>
         <div class="row justify-content-center">
           <h2 class="mt-2 col-sm-12 col-md-10">
-            <a name="stickers-model">Model Popovers</a>
-            <small class="text-muted mt-2 mb-1">We make instagram popover stickers for any BMW model (328is, 324td, 520d, etc). Just message us your model on the eBay checkout page. Stickers are shipped the next day.</small>
+            <a name="stickers-model">Stickers for Models</a>
+            <small class="text-muted mt-2 mb-1">Get the one that fits your bimmer! We ship stickers next day.</small>
           </h2>
         </div>
         <div class="row justify-content-center">
           <!--#set var="STICKER_TITLE"    value="Custom Model Popover Sticker" -->
+          <!--#set var="STICKER_TEXT"     value="We make instagram popover stickers for any BMW model (328is, 324td, 520d, etc). Just message us your model on the eBay checkout page." -->
           <!--#set var="STICKER_DOLLARS"  value="5" -->
           <!--#set var="STICKER_CENTS"    value="99" -->
           <!--#set var="STICKER_SIZE"     value="5½ × 2½ in (14 × 6.5 cm)" -->
-          <!--#set var="STICKER_URL"     value="http://www.ebay.com/itm/192568855873" -->
+          <!--#set var="STICKER_URL"      value="http://www.ebay.com/itm/192568855873" -->
           <!--#set var="COLOR_OPTIONS" value="<span data-toggle=\"tooltip\" title=\"Red\"><span class=\"color-dot red\"></span></span>
                                               <span data-toggle=\"tooltip\" title=\"Orange\"><span class=\"color-dot orange\"></span></span>" -->
 
@@ -147,9 +148,54 @@
                     $<!--#echo encoding="none" var="STICKER_DOLLARS" --><sup><!--#echo encoding="none" var="STICKER_CENTS" --></sup>
                   </span>
                 </h5>
+                <!--#if expr="${STICKER_TEXT}!=''" -->
+                  <p><!--#echo encoding="none" var="STICKER_TEXT" --></p>
+                <!--#endif-->
                 <dl class="card-text row">
                   <dt class="col-4">Material</dt>
                   <dd class="col-8 text-right">Two layers of ORACAL 651 vinyl</dd>
+                  <dt class="col-3">Size</dt>
+                  <dd class="col-9 text-right"><!--#echo encoding="none" var="STICKER_SIZE" --></dd>
+                    <dt class="col-3 mt-1">Colors</dt>
+                    <dd class="col-9 mt-1 text-right">
+                      <!--#echo encoding="none" var="COLOR_OPTIONS" -->
+                    </dd>
+                </dl>
+                <a href="<!--#echo encoding="none" var="STICKER_URL" -->" target="_blank" rel="nofollow" role="button" class="btn btn-primary"><span class="icon-external"></span> View on eBay</a>
+              </div>
+            </div>
+            <figcaption><!--#echo encoding="none" var="STICKER_IMG_ALT" --></figcaption>
+          </figure>
+          <!--#set var="STICKER_TITLE"    value="BMW Modified sticker" -->
+          <!--#set var="STICKER_TEXT"     value="To be placed on every modified bimmer, really." -->
+          <!--#set var="STICKER_DOLLARS"  value="8" -->
+          <!--#set var="STICKER_CENTS"    value="99" -->
+          <!--#set var="STICKER_SIZE"     value="11½ × 1½ in (29 × 4 cm)" -->
+          <!--#set var="STICKER_URL"      value="https://www.ebay.com/itm/192621877644" -->
+          <!--#set var="COLOR_OPTIONS" value="<span data-toggle=\"tooltip\" title=\"Whtie\"><span class=\"color-dot white\"></span></span>
+                                              <span data-toggle=\"tooltip\" title=\"Holographic Opal\"><span class=\"color-dot holo-opal\"></span></span>
+                                              <span data-toggle=\"tooltip\" title=\"Holographic Blue\"><span class=\"color-dot holo-blue\"></span></span>" -->
+
+          <figure class="card-col col-xs-12 col-md-6 col-lg-6">
+            <div class="card widget-sticker">
+              <div class="card-img-top js--gallery">
+                <img src="img/sticker-modified-white.jpg" alt="BMW Modified sticker white">
+                <img src="img/sticker-modified-holographic-opal.jpg" alt="BMW Modified sticker holographic opal">
+                <img src="img/sticker-modified-holographic-blue.jpg" alt="BMW Modified sticker holographic blue">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">
+                  <!--#echo encoding="none" var="STICKER_TITLE" -->
+                  <span class="pricetag">
+                    $<!--#echo encoding="none" var="STICKER_DOLLARS" --><sup><!--#echo encoding="none" var="STICKER_CENTS" --></sup>
+                  </span>
+                </h5>
+                <!--#if expr="${STICKER_TEXT}!=''" -->
+                  <p><!--#echo encoding="none" var="STICKER_TEXT" --></p>
+                <!--#endif-->
+                <dl class="card-text row">
+                  <dt class="col-4">Material</dt>
+                  <dd class="col-8 text-right">Four layers of ORACAL 651 vinyl</dd>
                   <dt class="col-3">Size</dt>
                   <dd class="col-9 text-right"><!--#echo encoding="none" var="STICKER_SIZE" --></dd>
                     <dt class="col-3 mt-1">Colors</dt>
@@ -552,7 +598,6 @@
           </div>
         </div>
       </div>
-      <script src="js/compiled/bimmersticker.min.js?623450"></script>
-      <!-- <script src="js/compiled/bimmersticker.js"></script> -->
+      <script src="js/compiled/bimmersticker.js?123456"></script>
     </body>
 </html>
