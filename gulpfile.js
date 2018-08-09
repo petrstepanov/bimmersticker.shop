@@ -5,7 +5,8 @@ var gulp = require('gulp'),
     concat = require('gulp-concat'),
     plumber = require('gulp-plumber'),
     sourcemaps = require('gulp-sourcemaps'),
-    autoprefixer = require('gulp-autoprefixer');
+    autoprefixer = require('gulp-autoprefixer'),
+    version = require('gulp-version-number');
     // replace = require('gulp-replace');
 //    imageResize = require('gulp-image-resize');
 
@@ -63,6 +64,12 @@ gulp.task('styles-prod', function () {
     .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
     .pipe(autoprefixer())
     .pipe(gulp.dest(paths.styles.dest));
+});
+
+gulp.task('suffix', function(){
+  gulp.src(['file.txt'])
+    .pipe(replace('bar', 'foo'))
+    .pipe(gulp.dest('build/'));
 });
 
 gulp.task('watch', function() {
