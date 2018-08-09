@@ -1,1 +1,1 @@
-# bimmersticker.shop
+# bimmersticker.store
