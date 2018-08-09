@@ -10,22 +10,6 @@ var gulp = require('gulp'),
 //    imageResize = require('gulp-image-resize');
 
 var paths = {
-  resources: {
-    src: [
-      './bower_components/flat-ui/im*/**/*.*',
-      './bower_components/lightbox/im*/*.*',
-      './bower_components/jquery-file-upload/im*/*.*',
-      './node_modules/roboto-fontface/font*/roboto/Roboto-Regular.*',
-      './node_modules/roboto-fontface/font*/roboto/Roboto-Light.*',
-      './node_modules/roboto-fontface/font*/roboto/Roboto-Thin.*',
-      './node_modules/roboto-fontface/font*/roboto/Roboto-Bold.*',
-      './bower_components/flat-ui/font*/glyphicon*/*.*',
-      './node_modules/photoswipe/dist/default-*/*.{png,gif,svg}',
-      './node_modules/photoswipe/dist/default-*/*.{png,gif,svg}',
-      './node_modules/font-awesome/font*/*.*',
-    ],
-    dest: '../public/'
-  },
   styles: {
     src: './sass/bimmersticker.scss',
     srcWatch: './sass/**/*.scss',
@@ -37,8 +21,8 @@ var paths = {
           './node_modules/shufflejs/dist/shuffle.js',
           './js/modules/background-gallery.js',
           './js/main.js'],
-    srcWatch: '../js/**/*.js',
-    dest: 'js/compiled'
+    srcWatch: './js/**/*.js',
+    dest: './js'
   }
 };
 
