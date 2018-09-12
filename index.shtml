@@ -118,7 +118,7 @@
           <!--#set var="STICKER_URL"     value="http://www.ebay.com/itm/192568856505" -->
           <!--#include virtual="ssi/widgets/sticker-big.shtml" -->
 
-          <!--#set var="COLOR_OPTIONS" value="<span data-toggle=\"tooltip\" title=\"Holographic Opal\"><span class=\"color-dot red\"></span></span>" -->
+          <!--#set var="COLOR_OPTIONS" value="<span data-toggle=\"tooltip\" title=\"Red\"><span class=\"color-dot red\"></span></span>" -->
 
           <!--#set var="STICKER_TITLE"    value="Supercharged" -->
           <!--#set var="STICKER_GROUPS"   value="[\"1er\",\"2er\",\"3er\",\"4er\",\"5er\",\"6er\",\"7er\"]" -->
