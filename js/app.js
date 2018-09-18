@@ -487,6 +487,9 @@ $(document).ready(function(){
     bg.init(this);
   });
 
+  // Add line breaks in lists
+  $("<hr/>").insertAfter("dl dd");
+
   // iOS10 prevent pinch zoom
   document.addEventListener('gesturestart', function (event) {
     event.preventDefault();

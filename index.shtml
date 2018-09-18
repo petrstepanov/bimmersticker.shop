@@ -1,7 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="en">
     <!--#set var="TITLE"       value="Bimmer Sticker Store" -->
-    <!--#set var="DESCRIPTION" value="Handcrafted stickers for your BMW. We offer free shipping across US." -->
+    <!--#set var="DESCRIPTION" value="Handcrafted vinyl stickers for your BMW. Variety of designs for certain models, series and generations. We offer free shipping across US." -->
     <!--#include virtual="ssi/head.shtml" -->
     <body>
       <!--#include virtual="ssi/navbar.shtml" -->
@@ -19,10 +19,12 @@
         <div class="container pt-4 pb-4 pb-md-5">
           <div class="row justify-content-around">
             <!--#set var="WIDGET_ICONTEXT_IMG_SRC" value="img/icon-oracal.svg" -->
+            <!--#set var="WIDGET_ICONTEXT_IMG_ALT" value="Oracal brand icon" -->
             <!--#set var="WIDGET_ICONTEXT_TEXT" value="Stickers are made from the award-winning ORACAL® 651 adhesive outdoor vinyl. The durability period tops at 6 years. Stickers come with the applied transfer tape for easy application." -->
             <!--#include virtual="ssi/widgets/icontext.shtml" -->
 
             <!--#set var="WIDGET_ICONTEXT_IMG_SRC" value="img/icon-mail.svg" -->
+            <!--#set var="WIDGET_ICONTEXT_IMG_ALT" value="Mail icon" -->
             <!--#set var="WIDGET_ICONTEXT_TEXT" value="We offer free delivery across US. Same or next day handling time, shipping via USPS First-Class Mail or Package service. On average the delivery takes one to three business days. International shipping prices start at 65 cents." -->
             <!--#include virtual="ssi/widgets/icontext.shtml" -->
           </div>
@@ -118,6 +120,22 @@
           <!--#set var="STICKER_URL"     value="http://www.ebay.com/itm/192568856505" -->
           <!--#include virtual="ssi/widgets/sticker-big.shtml" -->
 
+          <!--#set var="COLOR_OPTIONS" value="<span data-toggle=\"tooltip\" title=\"Red\"><span class=\"color-dot red\"></span></span>
+                                              <span data-toggle=\"tooltip\" title=\"Blue\"><span class=\"color-dot blue\"></span></span>
+                                              <span data-toggle=\"tooltip\" title=\"Black\"><span class=\"color-dot black\"></span></span>
+                                              <span data-toggle=\"tooltip\" title=\"Mint\"><span class=\"color-dot mint\"></span></span>
+                                              <span data-toggle=\"tooltip\" title=\"Orange\"><span class=\"color-dot orange\"></span></span> " -->
+
+          <!--#set var="STICKER_TITLE"    value="Custom Mileage" -->
+          <!--#set var="STICKER_GROUPS"   value="[\"1er\",\"2er\",\"3er\",\"4er\",\"5er\",\"6er\",\"7er\"]" -->
+          <!--#set var="STICKER_IMG"      value="img/sticker-miles.jpg" -->
+          <!--#set var="STICKER_IMG_ALT"  value="car odometer mileage window vinyl sticker (custom miles or km value)" -->
+          <!--#set var="STICKER_DOLLARS"  value="8" -->
+          <!--#set var="STICKER_CENTS"    value="99" -->
+          <!--#set var="STICKER_SIZE"     value="8½ × 2¾ in (22 × 7 cm)" -->
+          <!--#set var="STICKER_URL"     value="https://www.ebay.com/itm/192661747178" -->
+          <!--#include virtual="ssi/widgets/sticker-big.shtml" -->
+
           <!--#set var="COLOR_OPTIONS" value="<span data-toggle=\"tooltip\" title=\"Red\"><span class=\"color-dot red\"></span></span>" -->
 
           <!--#set var="STICKER_TITLE"    value="Supercharged" -->
@@ -128,6 +146,18 @@
           <!--#set var="STICKER_CENTS"    value="99" -->
           <!--#set var="STICKER_SIZE"     value="8¼ × 2¼ in (21 × 6 cm)" -->
           <!--#set var="STICKER_URL"     value="https://www.ebay.com/itm/192639584367" -->
+          <!--#include virtual="ssi/widgets/sticker-big.shtml" -->
+
+          <!--#set var="COLOR_OPTIONS" value="<span data-toggle=\"tooltip\" title=\"Gold\"><span class=\"color-dot yellow\"></span></span><span data-toggle=\"tooltip\" title=\"Silver\"><span class=\"color-dot white\"></span></span>" -->
+
+          <!--#set var="STICKER_TITLE"    value="BMW Girls Make It Better" -->
+          <!--#set var="STICKER_GROUPS"   value="[\"1er\",\"2er\",\"3er\",\"4er\",\"5er\",\"6er\",\"7er\"]" -->
+          <!--#set var="STICKER_IMG"      value="img/sticker-bmw-girls.jpg" -->
+          <!--#set var="STICKER_IMG_ALT"  value="BMW Girls Make It Better car vinyl window windshield sticker sport decal" -->
+          <!--#set var="STICKER_DOLLARS"  value="8" -->
+          <!--#set var="STICKER_CENTS"    value="99" -->
+          <!--#set var="STICKER_SIZE"     value="8½ × 3¾ in (22 × 9.5 cm)." -->
+          <!--#set var="STICKER_URL"     value="https://www.ebay.com/itm/192661784404" -->
           <!--#include virtual="ssi/widgets/sticker-big.shtml" -->
         </div>
         <div class="row justify-content-center">
