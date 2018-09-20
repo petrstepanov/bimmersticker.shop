@@ -459,6 +459,9 @@ var navbarManipulator = (function () {
   };
 })();
 
+// Add line breaks in lists
+$("<hr/>").insertAfter("dl dd");
+
 $(document).ready(function(){
   var myHtmlHelper = htmlHelper.getInstance();
   // Smooth link scrolling
@@ -486,9 +489,6 @@ $(document).ready(function(){
     var bg = BackgroundGallery();
     bg.init(this);
   });
-
-  // Add line breaks in lists
-  $("<hr/>").insertAfter("dl dd");
 
   // iOS10 prevent pinch zoom
   document.addEventListener('gesturestart', function (event) {

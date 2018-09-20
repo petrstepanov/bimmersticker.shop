@@ -193,13 +193,13 @@
                 <!--#if expr="${STICKER_TEXT}!=''" -->
                   <p><!--#echo encoding="none" var="STICKER_TEXT" --></p>
                 <!--#endif-->
-                <dl class="card-text row">
-                  <dt class="col-4">Material</dt>
-                  <dd class="col-8 text-right">Two layers of ORACAL 651 vinyl</dd>
-                  <dt class="col-3">Size</dt>
-                  <dd class="col-9 text-right"><!--#echo encoding="none" var="STICKER_SIZE" --></dd>
-                    <dt class="col-3 mt-1">Colors</dt>
-                    <dd class="col-9 mt-1 text-right">
+                <dl class="card-description row">
+                  <dt>Material</dt>
+                  <dd>Two layers of ORACAL 651 vinyl</dd>
+                  <dt>Size</dt>
+                  <dd><!--#echo encoding="none" var="STICKER_SIZE" --></dd>
+                    <dt class="mt-1">Colors</dt>
+                    <dd class="mt-1">
                       <!--#echo encoding="none" var="COLOR_OPTIONS" -->
                     </dd>
                 </dl>
@@ -235,13 +235,13 @@
                 <!--#if expr="${STICKER_TEXT}!=''" -->
                   <p><!--#echo encoding="none" var="STICKER_TEXT" --></p>
                 <!--#endif-->
-                <dl class="card-text row">
-                  <dt class="col-4">Material</dt>
-                  <dd class="col-8 text-right">Four layers of ORACAL 651 vinyl</dd>
-                  <dt class="col-3">Size</dt>
-                  <dd class="col-9 text-right"><!--#echo encoding="none" var="STICKER_SIZE" --></dd>
-                    <dt class="col-3 mt-1">Colors</dt>
-                    <dd class="col-9 mt-1 text-right">
+                <dl class="card-description row">
+                  <dt>Material</dt>
+                  <dd>Four layers of ORACAL 651 vinyl</dd>
+                  <dt>Size</dt>
+                  <dd><!--#echo encoding="none" var="STICKER_SIZE" --></dd>
+                    <dt class="mt-1">Colors</dt>
+                    <dd class="mt-1 text-right">
                       <!--#echo encoding="none" var="COLOR_OPTIONS" -->
                     </dd>
                 </dl>
