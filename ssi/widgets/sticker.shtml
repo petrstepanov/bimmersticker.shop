@@ -1,4 +1,4 @@
-<figure class="card-col col-xs-12 col-md-6 col-lg-4" data-groups='<!--#echo var="STICKER_GROUPS" -->'>
+<figure class="card-col col-xs-12 col-md-6 col-lg-4">
   <div class="card widget-sticker">
     <a href="<!--#echo encoding="none" var="STICKER_URL" -->" target="_blank" rel="nofollow">
       <img class="card-img-top" src="<!--#echo var="STICKER_IMG" -->" alt="<!--#echo var="STICKER_IMG_ALT" -->">
